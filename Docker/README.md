@@ -6,6 +6,11 @@ Before get into docker, we must need to know what is container?
 
 **Docker** – It’s a platform which helps to create a container. It enables the life-cycle of containers ie create, delete, deploy, etc..,
 
+**Advantages of Container:**
+1. Isolation and Lightweight: Containers run in isolation and are lightweight, including only required system libraries and a dedicated file system.
+2. High Speed: Containers' shared access to the host kernel enables faster performance.
+3. Efficient Resource Usage: Containers dynamically allocate and release resources as needed, optimizing system utilization.
+
 **How to Install a Docker?**
 
 Since I am using Linux VM. I'll show you the Step by step guide to install docker in linux VM ie Ubuntu.
@@ -23,6 +28,22 @@ https://docs.docker.com/engine/install/ubuntu/
 Once it was installed. Please verify the installation using below command
 **docker --version**
 ![3](https://github.com/user-attachments/assets/6423136a-bbda-4285-8b9a-16f3e498e5f8)
+
+
+**Basic Docker Commands:**
+
+1. docker image build
+2. docker image pull
+3. docker conatiner run
+4. docker conatiner stop
+5. docker container exec
+6. docker container ps
+7. docker image inspect
+8. docker login
+9. docker image history
+10. docker image push
+11. docker image --help
+    
 
 
    
