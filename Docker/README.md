@@ -22,6 +22,8 @@ https://docs.docker.com/engine/install/ubuntu/
 
 Once it was installed. Please verify the installation using below command
 **docker --version**
+![3](https://github.com/user-attachments/assets/6423136a-bbda-4285-8b9a-16f3e498e5f8)
+
 
    
 
