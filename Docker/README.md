@@ -8,7 +8,8 @@ Before get into docker, we must need to know what is container?
 
 **How to Install a Docker?**
 
-Since I am using Linux VM. I'll show you the Step by step guide to install docker in linux VM ie Ubuntu
+Since I am using Linux VM. I'll show you the Step by step guide to install docker in linux VM ie Ubuntu.
+To create a VM in AWS, Please refer our AWS folder. orelse To create a VM in your host machine. Please refer the Virtualization folder
 
 Go to google and search like “install docker on ubuntu” and follow the instructions and run the commands like below
 https://docs.docker.com/engine/install/ubuntu/
