@@ -25,5 +25,5 @@ kubectl expose deployment devops-setup-test --name=devops-setup-test-svc --type=
 5. To get adminpassword from pod. need to connect with pod terminal. For that, Please run the commands as per below screenshot
 a. kubectl exec -it devops-setup-test-5d64b5bcb7-czgxr -- /bin/bash
 b. cat "/var/jenkins_home/secrets/initialAdminPassword"
-![Screenshot from 2024-10-19 13-12-27](https://github.com/user-attachments/assets/a60cc600-8c08-45c4-bcea-b190488099a8)
+![Screenshot from 2024-10-19 13-18-23](https://github.com/user-attachments/assets/02d2bc84-7c20-4bc5-8c0d-f3235786d15f)
 6. Once got password. Please proceed with jenkins setup
