@@ -12,4 +12,4 @@ Check the status of image by "docker images"
 ![Screenshot from 2024-10-19 12-16-22](https://github.com/user-attachments/assets/b6fe4795-9866-4e9e-b1e9-02ff1eac08d6)
 Once Image pulled successfully. Lets deploy that image into Kubenetes
 1. Create a deployment "kubectl create deployment devops-setup-test --image=jenkins/jenkins"
-![Screenshot from 2024-10-19 12-20-45](https://github.com/user-attachments/assets/ecd0c806-eabb-48a7-b1d8-eddba92da138)
+![Screenshot from 2024-10-19 12-40-21](https://github.com/user-attachments/assets/59e57924-79f1-4ace-89d7-602a4588b0bc)
