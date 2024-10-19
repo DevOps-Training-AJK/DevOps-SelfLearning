@@ -11,5 +11,8 @@ Pull the Jenkins image from Dockerhub by run command "docker pull jenkins/jenkin
 Check the status of image by "docker images"
 ![Screenshot from 2024-10-19 12-16-22](https://github.com/user-attachments/assets/b6fe4795-9866-4e9e-b1e9-02ff1eac08d6)
 Once Image pulled successfully. Lets deploy that image into Kubenetes
-1. Create a deployment "kubectl create deployment devops-setup-test --image=jenkins/jenkins"
+I am using "default" as my namespace. If required we create a namespace "kubectl create ns devops-setup" and 
+1. Create a deployment "kubectl create deployment devops-setup-test --image=jenkins/jenkins -n default"
 ![Screenshot from 2024-10-19 12-40-21](https://github.com/user-attachments/assets/59e57924-79f1-4ace-89d7-602a4588b0bc)
+2. Increase the pods through replicaset for more availability
+![Screenshot from 2024-10-19 12-50-19](https://github.com/user-attachments/assets/7a3091aa-30aa-45d3-af07-4a431aa5308b)
