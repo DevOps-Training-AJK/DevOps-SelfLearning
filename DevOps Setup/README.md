@@ -27,3 +27,8 @@ a. kubectl exec -it devops-setup-test-5d64b5bcb7-czgxr -- /bin/bash
 b. cat "/var/jenkins_home/secrets/initialAdminPassword"
 ![Screenshot from 2024-10-19 13-18-23](https://github.com/user-attachments/assets/02d2bc84-7c20-4bc5-8c0d-f3235786d15f)
 6. Once got password. Please proceed with jenkins setup
+
+
+![Screenshot from 2024-10-19 14-51-54](https://github.com/user-attachments/assets/c4992844-dda4-4755-a671-4145e75be953)
+![Screenshot from 2024-10-19 14-55-36](https://github.com/user-attachments/assets/734bccae-76d0-4a29-95fb-9845f3121c30)
+![Screenshot from 2024-10-19 15-16-51](https://github.com/user-attachments/assets/2edf4072-ea72-41d9-950d-2121b77a69ee)
