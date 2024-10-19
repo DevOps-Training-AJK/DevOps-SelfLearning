@@ -7,3 +7,9 @@ Steps:
 4. Connect to the cluster by select ":" -> connect -> either copy the gcloud command and paste in Gcloudcli or we can directly connect via CLI by selecting option "Run in cloud shell" and select "continue" or "Authorize" to connect with your project and the cluster
 Once connected. Please check the kubectl status by running command "kubectl --help"
 Pull the Jenkins image from Dockerhub by run command "docker pull jenkins/jenkins"
+![Screenshot from 2024-10-19 12-06-22](https://github.com/user-attachments/assets/00ba0dd6-6b64-4a4d-8a48-19d4afbe6abe)
+Check the status of image by "docker images"
+![Screenshot from 2024-10-19 12-16-22](https://github.com/user-attachments/assets/b6fe4795-9866-4e9e-b1e9-02ff1eac08d6)
+Once Image pulled successfully. Lets deploy that image into Kubenetes
+1. Create a deployment "kubectl create deployment devops-setup-test --image=jenkins/jenkins"
+![Screenshot from 2024-10-19 12-20-45](https://github.com/user-attachments/assets/ecd0c806-eabb-48a7-b1d8-eddba92da138)
