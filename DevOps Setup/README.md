@@ -14,5 +14,11 @@ Once Image pulled successfully. Lets deploy that image into Kubenetes
 I am using "default" as my namespace. If required we create a namespace "kubectl create ns devops-setup" and 
 1. Create a deployment "kubectl create deployment devops-setup-test --image=jenkins/jenkins -n default"
 ![Screenshot from 2024-10-19 12-40-21](https://github.com/user-attachments/assets/59e57924-79f1-4ace-89d7-602a4588b0bc)
-2. Increase the pods through replicaset for more availability
+2. Increase the pods through replicaset for more availability "kubectl scale deployment devops-setup-test --replicas=2 -n default"
 ![Screenshot from 2024-10-19 12-50-19](https://github.com/user-attachments/assets/7a3091aa-30aa-45d3-af07-4a431aa5308b)
+3. Create service & expose it into outside 
+kubectl expose deployment devops-setup-test --name=devops-setup-test-svc --type=LoadBalancer --port=8080
+4. Once got External IP(kubectl get svc -n default). Please try to access via chrome
+![Screenshot from 2024-10-19 13-04-33](https://github.com/user-attachments/assets/30f38bf5-d16f-4b36-a0e1-fd507e7b9a65)
+![Screenshot from 2024-10-19 13-04-53](https://github.com/user-attachments/assets/cd318839-7533-4f11-b3c9-258e665a85b9)
+
