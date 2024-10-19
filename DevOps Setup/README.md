@@ -15,8 +15,8 @@ Once Image pulled successfully.
 **NOTE:**I am using "default" as my namespace. If required we create a namespace "kubectl create ns devops-setup" and 
 1. Create a deployment "kubectl create deployment devops-setup-test --image=jenkins/jenkins -n default"
 ![Screenshot from 2024-10-19 12-40-21](https://github.com/user-attachments/assets/59e57924-79f1-4ace-89d7-602a4588b0bc)
-2. Increase the pods through replicaset for more availability "kubectl scale deployment devops-setup-test --replicas=2 -n default"
-![Screenshot from 2024-10-19 12-50-19](https://github.com/user-attachments/assets/7a3091aa-30aa-45d3-af07-4a431aa5308b)
+2. Increase the pods through replicaset for more availability "kubectl scale deployment devops-setup-test --replicas=1-n default"
+![Screenshot from 2024-10-19 13-37-27](https://github.com/user-attachments/assets/62b08e5c-267f-4978-a9f5-dcb9ad02a503)
 3. Create service & expose it into outside 
 kubectl expose deployment devops-setup-test --name=devops-setup-test-svc --type=LoadBalancer --port=8080
 4. Once got External IP(kubectl get svc -n default). Please try to access via chrome
