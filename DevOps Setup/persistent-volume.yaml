@@ -1,13 +1,10 @@
 apiVersion: v1
-kind: PersistentVolume
+kind: PersistentVolumeClaim
 metadata:
-  name: devops-setup-test-pv
+  name: jenkins-pvc
 spec:
-  capacity:
-    storage: 5Gi
   accessModes:
     - ReadWriteOnce
-  persistentVolumeReclaimPolicy: Retain
-  nfs:
-    path: /path/to/nfs/export
-    server: nfs-server.example.com
+  resources:
+    requests:
+      storage: 5Gi
