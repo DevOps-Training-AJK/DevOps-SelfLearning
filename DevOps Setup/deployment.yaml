@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-setup-test
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devops-setup-test
+  template:
+    metadata:
+      labels:
+        app: devops-setup-test
+    spec:
+      containers:
+      - name: jenkins
+        image: jenkins/jenkins
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: jenkins-data
+          mountPath: /var/jenkins_home
+      volumes:
+      - name: jenkins-data
+        persistentVolumeClaim:
+          claimName: devops-setup-test-pvc
