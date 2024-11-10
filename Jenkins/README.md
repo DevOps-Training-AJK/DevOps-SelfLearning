@@ -1,7 +1,7 @@
 # Install Jenkins on K8s cluster with autoscaling enabled using minikube
 This method runs the jenkins instance on 3 pods each and distribute the load/traffic equally.
 
-**NOTE:** For better practice, please create a namespace & follow the steps
+**NOTE:** For better practice, please create a namespace & follow the steps & also use alias minikube kubectl -- ="kubectl"
 
 ## Steps:
 
@@ -73,7 +73,7 @@ This method runs the jenkins instance on 3 pods each and distribute the load/tra
 
    | **Commands** | **use** |
    |-----------------------------------------------------------------------|--------------------------|
-   | minikube delete -all                                                  | To delete minikube       |
+   | minikube delete --all                                                  | To delete minikube       |
    | minikube kubectl -- get nodes                                         |        |
    | minikube kubectl -- create ns namespacename **Ex:** kubectl create ns devops-test-env                                |       |
    | minikube kubectl -- exec -it podname -- /bin/bash **Ex:** minikube kubectl -- exec -it devops-setup-deploy-0 -- /bin/bash  |       |
