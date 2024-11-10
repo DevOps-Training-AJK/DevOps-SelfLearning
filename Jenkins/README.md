@@ -12,10 +12,27 @@
    ```bash
    docker --version
 
-4. Pull the jenkins docker image
+4. Once docker was installed. Please run
+   ```bash
+   sudo usermod -aG docker $USER && newgrp docker
+
+5. Pull the jenkins docker image
    ```bash
    docker pull jenkins/jenkins:latest
 
-5. Install Minikube in a VM to create a K8s Cluster by referring its official doc
+6. Install Minikube in a VM to create a K8s Cluster by referring its official doc
    [Minikube Installation](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
+   To start minikube, please run command:
+   ```bash
+   minikube start --driver=<hypervisor>
+   For Ex:   minikube start --driver=docker
+
+6. To validate minikube
+   ```bash
+   minikube status
+
+7. To View the K8s dashboard.
+   ```bash
+   minikube dashboard
+8. 
    
