@@ -8,5 +8,6 @@
 2. Open the terminal and run the following command to install the downloaded package:
    ```bash
    sudo dpkg -i <path_to_deb_package>
+   For Ex: sudo dpkg -i ./virtualbox-7.1_7.1.4-165100~Ubuntu~jammy_amd64.deb
 
 3. 
