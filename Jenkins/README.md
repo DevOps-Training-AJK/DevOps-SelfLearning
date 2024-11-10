@@ -1,37 +1,21 @@
-# Install Jenkins on K8s cluster with autoscaling enable
+# Install Jenkins on K8s cluster with autoscaling enabled
+
 ## Steps:
-1. Create a VM in local machine using virtualbox(Ubuntu). For that, please refer below
+
+1. Create a VM in your local machine using VirtualBox (Ubuntu). For that, please refer to the following:
    [VM Creation steps](https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Virtualization/README.md)
-2. Install Docker Engine & Docker Cli
+
+2. Add APT repo & Install Docker Engine & Docker CLI.
    [Docker Installation](https://docs.docker.com/engine/install/ubuntu/)
-   ### Commands:
-   ***a. Add APT repository***
+
+3. To Validate run command:
    ```bash
-   # Add Docker's official GPG key:
-  sudo apt-get update
-  sudo apt-get install ca-certificates curl
-  sudo install -m 0755 -d /etc/apt/keyrings
-  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-  sudo chmod a+r /etc/apt/keyrings/docker.asc
-  echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-  sudo apt-get update```
-  
-  **b. Install Docker Packages***
-  ```bash
-  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
+   docker --version
 
-3. To validate Docker installation:
-  ```bash
-  docker --version bash```
+4. Pull the jenkins docker image
+   ```bash
+   docker pull jenkins/jenkins:latest
 
-4. Pull the Jenkins docker image version
-  ```bash
-  docker pull jenkins/jenkins```
-
-5. To validate the Image. Please run
-  ```bash
-  docker images```
+5. Install Minikube in a VM to create a K8s Cluster by referring its official doc
+   [Minikube Installation](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
    
