@@ -75,7 +75,7 @@ This method runs the jenkins instance on 3 pods each and distribute the load/tra
    |-----------------------------------------------------------------------|--------------------------|
    | minikube delete -all                                                  | To delete minikube       |
    | minikube kubectl -- get nodes                                         |        |
-   | minikube kubectl -- create ns namespacename **ex:** kubectl create ns devops-test-env                                |       |
-   | minikube kubectl -- exec -it podname -- /bin/bash **ex:** minikube kubectl -- exec -it devops-setup-deploy-0 -- /bin/bash  |       |
+   | minikube kubectl -- create ns namespacename **Ex:** kubectl create ns devops-test-env                                |       |
+   | minikube kubectl -- exec -it podname -- /bin/bash **Ex:** minikube kubectl -- exec -it devops-setup-deploy-0 -- /bin/bash  |       |
 
    
