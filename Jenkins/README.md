@@ -1,4 +1,6 @@
 # Install Jenkins on K8s cluster with autoscaling enabled using minikube
+   This method runs the jenkins instance on 3 pods each and distribute the load equally
+   **NOTE:** For better practice, please create a namespace & follow the steps
 
 ## Steps:
 
