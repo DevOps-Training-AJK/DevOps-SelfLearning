@@ -16,6 +16,7 @@
 
 2. Double-click on the exe file and install it.
 
+### Following steps
 3. Download the ISO Image from official distribution.
 For Ex: For Centos. Google search like "download centos iso image" & download the required iso image based on architecture
 [Download CentOS ISO image ](https://www.centos.org/download/)
