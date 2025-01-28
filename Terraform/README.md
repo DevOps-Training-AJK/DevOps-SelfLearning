@@ -16,4 +16,6 @@ provider "aws" {
   secret_key = env.AWS_SECRET_ACCESS_KEY
 }
 
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/14b1acef-499c-425c-9bba-94cc216e2685" />
+
 
