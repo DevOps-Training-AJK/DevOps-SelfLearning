@@ -22,3 +22,5 @@ provider "aws" {
 <img width="948" alt="image" src="https://github.com/user-attachments/assets/e3639d6a-0aed-4420-9b0a-0abf1c8f89e9" />
 
 
+terraform destroy --target=aws_instance.terraform-test-create-instance
+
