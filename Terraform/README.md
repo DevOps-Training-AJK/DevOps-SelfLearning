@@ -19,3 +19,6 @@ provider "aws" {
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/14b1acef-499c-425c-9bba-94cc216e2685" />
 
 
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/e3639d6a-0aed-4420-9b0a-0abf1c8f89e9" />
+
+
