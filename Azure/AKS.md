@@ -36,21 +36,25 @@ ssh-keygen
    <img width="446" alt="image" src="https://github.com/user-attachments/assets/e595a024-923e-436e-b549-171133919ebd" />
 
 9. I am using the predefined public docker image which created by kodekloud team for practice.
-In case, If you need to pull docker image from private repo. Please make sure docker daemon is running. If it's not running. Please run below commands
-sudo systemctl start docker
-sudo systemctl enable docker
-docker --version
-docker login <private host url>
-docker pull <image name>
+    In case, If you need to pull docker image from private repo. Please make sure docker daemon is running. If it's not running. Please run below commands
+   ```bash
+   sudo systemctl start docker
+   sudo systemctl enable docker
+   docker --version
+   docker login <private host url>
+   docker pull <image name>
 
 If you have dockerfile in local, use
-docker build . -t <image name>
-docker push <image name>
+   
+   docker build . -t <image name>
+   
+   docker push <image name>
 
 11. Create a deployment & svc. For Best practice always try to create objects with namespaces
     <img width="902" alt="image" src="https://github.com/user-attachments/assets/e6670a35-e8ec-4d80-9f9b-b5a8c94adce1" />
 12. Exposing externally
     <img width="937" alt="image" src="https://github.com/user-attachments/assets/670e440d-11f1-46cc-b1b6-8e2a0420d791" />
+
 
 
 
