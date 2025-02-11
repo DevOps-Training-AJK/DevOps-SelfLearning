@@ -23,7 +23,7 @@ ssh-keygen
    <img width="896" alt="image" src="https://github.com/user-attachments/assets/8c07edb7-bb00-466c-af97-76269a92dc2d" />
 
 
-   In case any issue. Please use copilot to fix the issue
+   In case any issue. Please use copilot to fix the issue. In my case, I updated the size od node from b2 to d2
    <img width="959" alt="image" src="https://github.com/user-attachments/assets/2bb9275e-3c24-403d-a0b8-2d0673ddfe7e" />
 
 
