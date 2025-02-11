@@ -1,3 +1,6 @@
+Deploying small Web app into AKS
+
+Steps:
 1. Created a Resource group & Ubuntu VM in Azure
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/48ef82cb-cc7f-491a-b787-e29ae1725c0d" />
 
@@ -23,7 +26,21 @@ ssh-keygen
    <img width="896" alt="image" src="https://github.com/user-attachments/assets/8c07edb7-bb00-466c-af97-76269a92dc2d" />
 
 
-   In case any issue. Please use copilot to fix the issue. In my case, I updated the size od node from b2 to d2
+   In case any issue. Please use copilot to fix the issue. In my case, I updated the size od node from b2 to ds2
    <img width="959" alt="image" src="https://github.com/user-attachments/assets/2bb9275e-3c24-403d-a0b8-2d0673ddfe7e" />
+
+8. To connect with cluster. Please select "connect" & open the cloud shell & run the recommeneded 2 commands
+   <img width="943" alt="image" src="https://github.com/user-attachments/assets/e10f86f1-6a10-4dc2-bb65-3d784e82ba54" />
+   <img width="446" alt="image" src="https://github.com/user-attachments/assets/e595a024-923e-436e-b549-171133919ebd" />
+
+9. I am using the predefined publich docker image which created by kodekloud team
+10. Create a deployment & svc. For Best practice always try to create objects with namespaces
+    <img width="902" alt="image" src="https://github.com/user-attachments/assets/e6670a35-e8ec-4d80-9f9b-b5a8c94adce1" />
+11. Exposing externally
+    <img width="937" alt="image" src="https://github.com/user-attachments/assets/670e440d-11f1-46cc-b1b6-8e2a0420d791" />
+
+
+
+
 
 
