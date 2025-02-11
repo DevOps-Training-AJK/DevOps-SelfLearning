@@ -13,3 +13,17 @@ ssh-keygen
 
 5. Cloned the repo & created an AZure folder to track the steps , committed & push into Github repo
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/72cf3e7b-b787-43cc-8b64-10e39a61cd56" />
+
+6. Created an AKS cluster by selecting
+   <img width="679" alt="image" src="https://github.com/user-attachments/assets/7e66a2bb-f0bd-49bb-8384-61bc9a586092" />
+
+7. created the node/nodepool as per my requirement orelse you can use minikube for practice
+   <img width="953" alt="image" src="https://github.com/user-attachments/assets/906dd612-1014-4d7c-a652-26734c345e50" />
+
+   <img width="896" alt="image" src="https://github.com/user-attachments/assets/8c07edb7-bb00-466c-af97-76269a92dc2d" />
+
+
+   In case any issue. Please use copilot to fix the issue
+   <img width="959" alt="image" src="https://github.com/user-attachments/assets/2bb9275e-3c24-403d-a0b8-2d0673ddfe7e" />
+
+
