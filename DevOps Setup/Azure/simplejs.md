@@ -9,4 +9,7 @@
 1. Install terraform & azure cli in vm
    Terraform - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
    Azure-cli - https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+   please cross check using
+   az --version
+   terraform --version
    
