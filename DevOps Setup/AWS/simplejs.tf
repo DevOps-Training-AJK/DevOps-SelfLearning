@@ -21,7 +21,7 @@ resource "aws_internet_gateway" "samplejs-igw" {
 resource "aws_subnet" "samplejs-subnet" {
   vpc_id            = aws_vpc.samplejs-vpc.id
   cidr_block        = "10.0.1.0/30"
-  availability_zone = "ap-south-1a"  # Change this to your preferred AZ
+  availability_zone = "ap-south-1a"
 
   tags = {
     Name = "samplejs-subnet-practice"
