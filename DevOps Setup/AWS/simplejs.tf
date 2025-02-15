@@ -1,7 +1,7 @@
 provider "aws" {
   region = "ap-south-1"
-  access_key = "AKIA6JKEXXE5WW3SHYNM"
-  secret_key = "atltk1F1kHtApt0DSFicceS+XzxDzQzLx3MKrlOo"
+  #access_key = "<access key>"
+  #secret_key = "<secret key>"
 }
 resource "aws_vpc" "samplejs-vpc" {
   cidr_block = "10.0.0.0/24"
