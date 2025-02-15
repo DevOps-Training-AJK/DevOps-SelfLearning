@@ -6,6 +6,7 @@
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/68746793-b2d7-440f-ae5d-a6eed3deebeb" />
 
 **Steps:**
-1. Install terraform in vm
-   https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
-2. 
+1. Install terraform & azure cli in vm
+   Terraform - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+   Azure-cli - https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+   
