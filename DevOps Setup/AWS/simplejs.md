@@ -35,5 +35,7 @@ ansible --version
 
 give access to your pem file by running "chmod 400 ./practice.pem"
 
+run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
+
 
 
