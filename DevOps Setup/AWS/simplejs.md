@@ -40,6 +40,7 @@ To check, please run
 
 
 run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
+once connectivity success. Please run "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
 
 
 
