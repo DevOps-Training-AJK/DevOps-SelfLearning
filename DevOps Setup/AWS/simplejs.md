@@ -28,9 +28,9 @@ To check, please run
 
 <img width="884" alt="image" src="https://github.com/user-attachments/assets/cc68c687-cf35-4911-8917-169256000c6f" />
 
-<img width="755" alt="image" src="https://github.com/user-attachments/assets/413fdbbc-da05-484a-8913-02ec943acf97" />
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/f7952738-21e4-4ab5-801f-3e0372547d1b" />
 
-<img width="946" alt="image" src="https://github.com/user-attachments/assets/c90402b9-017a-4fd8-8acb-1d07ab02307b" />
+<img width="776" alt="image" src="https://github.com/user-attachments/assets/c3b4b20e-e06b-45c3-8b38-3b3b9c28ecad" />
 
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/35c42dcb-e918-4d75-bd00-773acbed455c" />
 
