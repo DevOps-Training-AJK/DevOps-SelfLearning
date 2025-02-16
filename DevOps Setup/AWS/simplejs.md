@@ -1,7 +1,7 @@
 # Deploy a simple js frontend app into AKS into automation
 
 1. Create a instance in AWS, then install ansible, terraform & AWS cli by referring below url
-2.open the aws cloud shell & select "actions->upload file ex:test.pem"
+2. open the aws cloud shell & select "actions->upload file ex:test.pem"
 3. run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@35.154.147.17:/home/ubuntu/" to upload an pem file into control/master server
 4. run "ssh -i ./.ssh/practice.pem ubuntu@35.154.147.17" to connect with an instance
 5. give access to your pem file by running "chmod 400 ./practice.pem"
