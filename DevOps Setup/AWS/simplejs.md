@@ -25,6 +25,15 @@ ansible --version
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/c90402b9-017a-4fd8-8acb-1d07ab02307b" />
 
 1. open the aws cloud shell & select "actions->upload file ex:test.pem"
-2. run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@35.154.147.17:/home/ubuntu/" to upload an pem file into target server
+2. run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@35.154.147.17:/home/ubuntu/" to upload an pem file into control/master server
+
+   <img width="904" alt="image" src="https://github.com/user-attachments/assets/35c42dcb-e918-4d75-bd00-773acbed455c" />
+
+   <img width="564" alt="image" src="https://github.com/user-attachments/assets/90eaa06d-5e96-49d0-82f2-cb6b5a29a3ed" />
+
+   <img width="410" alt="image" src="https://github.com/user-attachments/assets/ce0ddc97-bd85-4b98-85ea-f14753cbe545" />
+
+give access to your pem file by running "chmod 400 ./practice.pem"
+
 
 
