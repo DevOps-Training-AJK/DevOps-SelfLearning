@@ -24,6 +24,7 @@ ansible --version
 
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/c90402b9-017a-4fd8-8acb-1d07ab02307b" />
 
-
+1. run ssh-keygen in master server and copy the publick key
+2. Connect to the master server & go to path ~/.ssh/ & open the "authorized_keys" & paste the public key & save the file
 
 
