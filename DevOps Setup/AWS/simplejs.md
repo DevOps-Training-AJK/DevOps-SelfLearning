@@ -24,5 +24,7 @@ ansible --version
 
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/4eaba1f3-8180-4c92-9291-f556343e3cc6" />
 
+[terraform_plan_ouput.txt](https://github.com/user-attachments/files/18813842/terraform_plan_ouput.txt)
+
 
 
