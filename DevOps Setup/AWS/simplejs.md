@@ -20,3 +20,9 @@ ansible --version
 
 <img width="884" alt="image" src="https://github.com/user-attachments/assets/cc68c687-cf35-4911-8917-169256000c6f" />
 
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/8985556d-21d5-4424-b191-a9dfbfd3e9d3" />
+
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/4eaba1f3-8180-4c92-9291-f556343e3cc6" />
+
+
+
