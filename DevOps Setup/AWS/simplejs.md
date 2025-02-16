@@ -1,6 +1,9 @@
 # Deploy a simple js frontend app into AKS into automation
 
 1. Create a instance in AWS, then install ansible, terraform & AWS cli by referring below url
+   open the aws cloud shell & select "actions->upload file ex:test.pem"
+   run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@35.154.147.17:/home/ubuntu/" to upload an pem file into control/master server
+   run "ssh -i ./.ssh/practice.pem ubuntu@35.154.147.17" to connect with an instance
    
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
@@ -24,8 +27,6 @@ ansible --version
 
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/c90402b9-017a-4fd8-8acb-1d07ab02307b" />
 
-1. open the aws cloud shell & select "actions->upload file ex:test.pem"
-2. run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@35.154.147.17:/home/ubuntu/" to upload an pem file into control/master server
 
    <img width="904" alt="image" src="https://github.com/user-attachments/assets/35c42dcb-e918-4d75-bd00-773acbed455c" />
 
