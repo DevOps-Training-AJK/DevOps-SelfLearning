@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+    stages {
+        stage('checkout-repo') {
+            steps {
+                script {
+                    sh '''
+                        git clone https://github.com/DevOps-Training-AJK/DevOps-SelfLearning.git
+                        git checkout main
+                    '''
+                }
+                
+            }
+        }
+        stage('docker-build') {
+            steps {
+                script {
+                    sh '''
+                        docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
+                        docker build . -t test:${BUILD_NUMBER}
+                        docker push
+                    '''
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    sh '''
+                        kubectl login -u ${KUBE_USER} -p ${KUBE_PASS}
+                        kubectl create deployment test-deployment-${BUILD_NUMBER} --image=test:${BUILD_NUMBER}
+                        kubectl expose deployment test-deployment-${BUILD_NUMBER} --type=LoadBalancer --port=80 --target-port=80
+                    '''
+                
+            }
+        }
+    }
+}
+}
