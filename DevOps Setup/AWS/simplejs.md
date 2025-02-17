@@ -1,4 +1,4 @@
-# Deploy a simple js frontend app into AKS into automation
+# Deploy a simple js frontend app into EKS through automation
 
 1. Create a instance in AWS, then install ansible, terraform & AWS cli by referring below url
 
