@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         username = "ajithkv98@gmail.com"
+        pass = "JENKINSaj@007"
         password = credentials('dockerpassword')
     }
     stages {
@@ -11,42 +12,44 @@ pipeline {
                     sh '''
                         if [ -d "Test-Frontend-app-Calculator" ]; then
                             rm -rf 'Test-Frontend-app-Calculator'
-                            git clone https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator.git
-                            cd 'Test-Frontend-app-Calculator'
-                            git checkout master
-                        else
-                            git clone https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator.git
-                            cd 'Test-Frontend-app-Calculator'
-                            git checkout master  
                         fi
+                        git clone https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator.git
+                        cd 'Test-Frontend-app-Calculator'
+                        git checkout master
                     '''
                 }
-                
             }
         }
         stage('docker-build') {
             steps {
                 script {
-                    sh '''
-                        ls -al
-                        docker login -u ${env.username} -p ${env.password}
+                    sh """
+                        docker --version
+                        #sudo chown "${USER}":"${USER}" /var/run/docker.sock
+                        cd 'Test-Frontend-app-Calculator'
+                        docker login -u "${username}" -p "${password_PSW}"
+                        echo "password" | sudo -S usermod -aG docker jenkins
                         docker build . -t test:${BUILD_NUMBER}
-                        docker push
-                    '''
+                        docker push test:${BUILD_NUMBER}
+                    """
                 }
             }
         }
         stage('Deploy') {
+            environment {
+                KUBE_USER = credentials('kubeuser')
+                KUBE_PASS = credentials('kubepass')
+            }
             steps {
                 script {
                     sh '''
-                        kubectl login -u ${KUBE_USER} -p ${KUBE_PASS}
+                        kubectl config set-credentials kubeuser --username=${KUBE_USER} --password=${KUBE_PASS}
+                        kubectl config set-context kubecontext --user=kubeuser --cluster=kubernetes
                         kubectl create deployment test-deployment-${BUILD_NUMBER} --image=test:${BUILD_NUMBER}
                         kubectl expose deployment test-deployment-${BUILD_NUMBER} --type=LoadBalancer --port=80 --target-port=80
                     '''
-                
+                }
             }
         }
     }
-}
 }
