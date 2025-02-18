@@ -1,14 +1,24 @@
 pipeline {
     agent any
+    environment {
+        username = "ajithkv98@gmail.com"
+        password = credentials('dockerpassword')
+    }
     stages {
         stage('checkout-repo') {
             steps {
                 script {
                     sh '''
-                        git clone https://github.com/DevOps-Training-AJK/DevOps-SelfLearning.git
-                        cd 'DevOps-SelfLearning'
-                        git checkout main
-                        ls -al
+                        if [ -d "Test-Frontend-app-Calculator" ]; then
+                            rm -rf 'Test-Frontend-app-Calculator'
+                            git clone https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator.git
+                            cd 'Test-Frontend-app-Calculator'
+                            git checkout master
+                        else
+                            git clone https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator.git
+                            cd 'Test-Frontend-app-Calculator'
+                            git checkout master  
+                        fi
                     '''
                 }
                 
@@ -18,7 +28,8 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
+                        ls -al
+                        docker login -u ${env.username} -p ${env.password}
                         docker build . -t test:${BUILD_NUMBER}
                         docker push
                     '''
