@@ -6,8 +6,9 @@ pipeline {
                 script {
                     sh '''
                         git clone https://github.com/DevOps-Training-AJK/DevOps-SelfLearning.git
-                        cd DevOps-SelfLearning
+                        cd 'DevOps-SelfLearning'
                         git checkout main
+                        ls -al
                     '''
                 }
                 
