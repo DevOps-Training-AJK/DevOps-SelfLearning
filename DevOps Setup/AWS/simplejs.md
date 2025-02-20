@@ -27,21 +27,10 @@ To check, please run
 
 <img width="934" alt="image" src="https://github.com/user-attachments/assets/ef86df79-2f9a-400c-9782-4b3fddac29da" />
 
-<img width="947" alt="image" src="https://github.com/user-attachments/assets/784a37f1-e579-4c0a-a2fe-00a1f452e85f" />
+Once both installed successfully. Please generate key pairs using command "ssh-keygen" & update your public key into your repository
 
-<img width="601" alt="image" src="https://github.com/user-attachments/assets/07150284-c6a5-4f7e-80bf-5b3d590c809a" />
+<img width="528" alt="image" src="https://github.com/user-attachments/assets/e0d62256-11cb-43b0-be10-10d68fbac32f" />
 
-<img width="884" alt="image" src="https://github.com/user-attachments/assets/cc68c687-cf35-4911-8917-169256000c6f" />
-
-<img width="593" alt="image" src="https://github.com/user-attachments/assets/f7952738-21e4-4ab5-801f-3e0372547d1b" />
-
-<img width="776" alt="image" src="https://github.com/user-attachments/assets/c3b4b20e-e06b-45c3-8b38-3b3b9c28ecad" />
-
-<img width="904" alt="image" src="https://github.com/user-attachments/assets/35c42dcb-e918-4d75-bd00-773acbed455c" />
-
-<img width="564" alt="image" src="https://github.com/user-attachments/assets/90eaa06d-5e96-49d0-82f2-cb6b5a29a3ed" />
-
-<img width="410" alt="image" src="https://github.com/user-attachments/assets/ce0ddc97-bd85-4b98-85ea-f14753cbe545" />
 
 
 run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
