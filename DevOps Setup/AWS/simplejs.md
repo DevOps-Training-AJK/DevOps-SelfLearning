@@ -75,9 +75,13 @@ docker --version
 aws --version
 jenkins --version
 
-![Uploading image.png…]()
 
 
+# issues:
+1. I forgot to add a command in "sudo ./aws/install" in playbook
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/fda23bc4-4ca2-4954-a4c5-4b8b152c3c00" />
+#### solution:
+Added the command in playbook & executed "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
 
 # Working in-progres.......
 
