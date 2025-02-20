@@ -114,13 +114,12 @@ To verify. Please connect with target server and run
 # Issues Faced:
 1. I forgot to add a command in "sudo ./aws/install" in playbook
 <img width="413" alt="image" src="https://github.com/user-attachments/assets/fda23bc4-4ca2-4954-a4c5-4b8b152c3c00" />
-#### solution:
-Added the command in playbook & executed "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
+
+#### solution: Added the command in playbook & executed "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
 
 
 2. Can't able to access the jenkins instance due to inbound config issue in terraform file
-#### solution:
-Updated the inbound config in .tf file. and ran "terraform plan" & "terraform apply" again
+#### solution: Updated the inbound config in .tf file. and ran "terraform plan" & "terraform apply" again
 
 
 
