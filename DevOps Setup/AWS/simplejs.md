@@ -15,6 +15,7 @@
 <img width="360" alt="image" src="https://github.com/user-attachments/assets/3d1c1693-3576-4c97-93ae-04c36648a5ab" />
 
 Once connect into VM either through cloudhsell/git/direct connect into vm. Please follow the instruction as per below pages & install terraform & ansible
+
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
