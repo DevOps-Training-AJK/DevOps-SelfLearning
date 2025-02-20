@@ -8,10 +8,13 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 ### NOTE: Since, I love to use cloud shell instead of connect VM directly. So it's mandatory to follow below steps. Otherwise you can ignore it step upto 5. If you are following below steps. Please update the ip-address with yours
 
-2. open the aws cloud shell & select "actions->upload file to upload "practice.pem"
-3. run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@3.7.71.223:/home/ubuntu/" to upload an pem file into control/master server
-4. run "ssh -i ./.ssh/practice.pem ubuntu@3.7.71.223" to connect with an instance
-5. give access to your pem file by running "chmod 400 ./practice.pem"
+2. open the aws cloud shell & select "actions->upload file to upload "practice.pem". In my case, I created a folder called .ssh & uploaded the pem file within .ssh folder. You can create your own folder & paste the pem file into it
+3. run "scp -i ~/.ssh/practice.pem ./practice.pem ubuntu@3.7.71.223:/home/ubuntu/" to upload an pem file into control/master server
+4. give access to your pem file by running "chmod 400 ./practice.pem"
+5. run "ssh -i ./.ssh/practice.pem ubuntu@3.7.71.223" to connect with an instance
+
+<img width="924" alt="image" src="https://github.com/user-attachments/assets/d6725c16-c9e9-4296-ba4c-567e3b2843fc" />
+
 
 To check, please run
 1. terraform --version
