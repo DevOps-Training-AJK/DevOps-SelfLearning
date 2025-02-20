@@ -1,5 +1,7 @@
 # Deploy a simple js frontend app into EKS through automation
 
+## NOTE: Since i don't git due to organization restriction. I created a ubuntu VM in EC2
+
 1. Create a instance in AWS, then install ansible & terraform by referring below url
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
