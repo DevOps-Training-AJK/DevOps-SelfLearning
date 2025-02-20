@@ -2,7 +2,7 @@
 
 ## NOTE: Since i don't git due to organization restriction. I created a ubuntu VM in EC2
 
-1. Create a instance in AWS, then install ansible & terraform by referring below url
+1. Create a instance in AWS (deny all outbound rules in SG), then install ansible & terraform by referring below url
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
