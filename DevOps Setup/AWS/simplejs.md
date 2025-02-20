@@ -2,9 +2,7 @@
 
 ## NOTE: Since i don't git due to organization restriction. I created a ubuntu VM in EC2
 
-1. Create a instance in AWS (deny all outbound rules in SG), then install ansible & terraform by referring below url
-https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+1. Create a instance in AWS (deny all outbound rules in SG), then install ansible & terraform
 
 ### NOTE: Since, I love to use cloud shell instead of connect VM directly. So it's mandatory to follow below steps. Otherwise you can ignore it step upto 5. If you are following below steps. Please update the ip-address with yours
 
@@ -14,7 +12,11 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 5. run "ssh -i ./.ssh/practice.pem ubuntu@3.7.71.223" to connect with an instance
 
 <img width="924" alt="image" src="https://github.com/user-attachments/assets/d6725c16-c9e9-4296-ba4c-567e3b2843fc" />
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/3d1c1693-3576-4c97-93ae-04c36648a5ab" />
 
+Once connect into VM either through cloudhsell/git/direct connect into vm. Please follow the instruction as per below pages & install terraform & ansible
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 To check, please run
 1. terraform --version
