@@ -39,9 +39,20 @@ Once both installed successfully. Please generate key pairs using command "ssh-k
 
 # Lets create a VM using terraform
 
-8. Now run "terraform init", "terraform plan". Once there is no error message. Please try "terraform apply"
+8. run "nano *.tf" or use "vi or vim" and update your access & secret key. press "ctrl+o" then "ctrl+x"
+9. Now run "terraform init", "terraform plan". Once there is no error message. Please try "terraform apply"
    #### NOTE: Don't forgot to update you access & secret key (which isn't a best practice. It's for just practice). If you going to add key. Please update with your respective .pem file name
+   To get access & secret key. Go to AWS UI -> profile -> security credentials -> scroll down & select "create access key"
 
+<img width="433" alt="image" src="https://github.com/user-attachments/assets/c5010fbd-a6c6-4fa8-8085-2d0e55182c32" />
+
+<img width="774" alt="image" src="https://github.com/user-attachments/assets/a7ef9f27-b6d3-4acc-be4e-b9a53ed70238" />
+
+<img width="758" alt="image" src="https://github.com/user-attachments/assets/5b71656a-17f7-4ba0-8331-397e2722a7c2" />
+
+<img width="701" alt="image" src="https://github.com/user-attachments/assets/b23a81b8-8d43-46d7-9a1c-9ecc21805717" />
+
+<img width="779" alt="image" src="https://github.com/user-attachments/assets/7e4e7c0e-b2a5-4586-b62a-0798a760e856" />
 
 
 run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
