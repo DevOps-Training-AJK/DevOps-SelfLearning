@@ -37,6 +37,11 @@ Once both installed successfully. Please generate key pairs using command "ssh-k
 7. Once repo cloned successfully. Go to path "cd DevOps-SelfLearning/DevOps\ Setup/AWS/"
    <img width="512" alt="image" src="https://github.com/user-attachments/assets/ad73ff5d-ff4b-4b0e-b104-343bad184340" />
 
+# Lets create a VM using terraform
+
+8. Now run "terraform init", "terraform plan". Once there is no error message. Please try "terraform apply"
+   #### NOTE: Don't forgot to update you access & secret key (which isn't a best practice. It's for just practice). If you going to add key. Please update with your respective .pem file name
+
 
 
 run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
