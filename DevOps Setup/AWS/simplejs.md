@@ -92,6 +92,10 @@ To verify. Please connect with target server and run
 
 <img width="645" alt="image" src="https://github.com/user-attachments/assets/aaf4f912-08bc-4353-bceb-706d70ff20b6" />
 
+17. Create a pipeline job. Dashboard -> Newitem -> select "pipeline" -> name of pipeline -> ok -> go to "pipeline" section & paste the jenkinsfile content which exist in our repo like below
+
+
+
 
     
 # Issues Faced:
