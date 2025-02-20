@@ -92,7 +92,20 @@ To verify. Please connect with target server and run
 
 <img width="645" alt="image" src="https://github.com/user-attachments/assets/aaf4f912-08bc-4353-bceb-706d70ff20b6" />
 
-17. Create a pipeline job. Dashboard -> Newitem -> select "pipeline" -> name of pipeline -> ok -> go to "pipeline" section & paste the jenkinsfile content which exist in our repo like below
+17. Create a pipeline job. Dashboard -> Newitem -> select "pipeline" -> name of pipeline -> ok -> go to "pipeline" section copy the jenkinsfile content which exist in our repo & paste it like below -> save -> build now
+
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/2a68bbb2-edaa-47c9-ad36-83483ec793ec" />
+
+18. Now it creates the image & push it into my dockerhub account
+<img width="939" alt="image" src="https://github.com/user-attachments/assets/9f17089f-3a0f-4b74-a7a0-d0d233b103e4" />
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/b80af39a-2969-444f-868d-a5fb54d96099" />
+
+
+# Lets Deploy our image into EKS
+
+19. Create an EKS cluster in AWS
+
+
 
 
 
