@@ -2,8 +2,7 @@ pipeline {
     agent any
     environment {
         username = "ajithkv98@gmail.com"
-        pass = "JENKINSaj@007"
-        password = credentials('dockerpassword')
+        password = credentials('docker')
     }
     stages {
         stage('checkout-repo') {
@@ -25,12 +24,10 @@ pipeline {
                 script {
                     sh """
                         docker --version
-                        #sudo chown "${USER}":"${USER}" /var/run/docker.sock
                         cd 'Test-Frontend-app-Calculator'
                         docker login -u "${username}" -p "${password_PSW}"
-                        echo "password" | sudo -S usermod -aG docker jenkins
-                        docker build . -t test:${BUILD_NUMBER}
-                        docker push test:${BUILD_NUMBER}
+                        docker build . -t ajithdevops/test:${BUILD_NUMBER}
+                        docker push ajithdevops/test:${BUILD_NUMBER}
                     """
                 }
             }
