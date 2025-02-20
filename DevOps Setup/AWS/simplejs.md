@@ -63,6 +63,12 @@ Once both installed successfully. Please generate key pairs using command "ssh-k
 
 11. run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
 once connectivity success. Please run "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
+#### NOTE: If you are facing connectivity due to permission issue. Please run "chmod 600 practice.pem" 
+
+<img width="914" alt="image" src="https://github.com/user-attachments/assets/15714e80-87da-4644-b649-df7bcf8f3864" />
+
+
+
 
 
 
