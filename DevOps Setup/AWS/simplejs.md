@@ -70,14 +70,16 @@ once connectivity success. Please run "ansible-playbook -i ./host.ini ./ansible_
 <img width="915" alt="image" src="https://github.com/user-attachments/assets/e9e5e469-58e2-488d-90cc-067aed4f5986" />
 
 To verify. Please connect with target server and run
+1. docker --version
+2. aws --version
+3. jenkins --version
 
-docker --version
-aws --version
-jenkins --version
+<img width="401" alt="image" src="https://github.com/user-attachments/assets/77f444f2-a8d8-433f-8d69-4a99c9d0a931" />
+
+# Build an Docker image using Jenkins
 
 
-
-# issues:
+# Issues Faced:
 1. I forgot to add a command in "sudo ./aws/install" in playbook
 <img width="413" alt="image" src="https://github.com/user-attachments/assets/fda23bc4-4ca2-4954-a4c5-4b8b152c3c00" />
 #### solution:
