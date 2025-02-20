@@ -27,9 +27,15 @@ To check, please run
 
 <img width="934" alt="image" src="https://github.com/user-attachments/assets/ef86df79-2f9a-400c-9782-4b3fddac29da" />
 
-Once both installed successfully. Please generate key pairs using command "ssh-keygen" & update your public key into your repository
+Once both installed successfully. Please generate key pairs using command "ssh-keygen" & update your public key into your repository (Profile -> settings -> GPG & SSH keys -> create key). Please make sure no extra space exist in public key while updating
 
 <img width="528" alt="image" src="https://github.com/user-attachments/assets/e0d62256-11cb-43b0-be10-10d68fbac32f" />
+
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/590a14cb-01ee-4d0e-bf80-a8d2372221bb" />
+
+6. Clone the repo using ssh clone url.
+7. Once repo cloned successfully. Go to path "cd DevOps-SelfLearning/DevOps\ Setup/AWS/"
+   <img width="512" alt="image" src="https://github.com/user-attachments/assets/ad73ff5d-ff4b-4b0e-b104-343bad184340" />
 
 
 
