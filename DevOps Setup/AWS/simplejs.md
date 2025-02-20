@@ -3,6 +3,8 @@
 ## NOTE: Since i don't git due to organization restriction. I created a ubuntu VM in EC2
 
 1. Create a instance in AWS (deny all outbound rules in SG), then install ansible & terraform
+   
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/d9236fc4-bdc4-41df-88ba-971753ffbb66" />
 
 ### NOTE: Since, I love to use cloud shell instead of connect VM directly. So it's mandatory to follow below steps. Otherwise you can ignore it step upto 5. If you are following below steps. Please update the ip-address with yours
 
@@ -23,7 +25,7 @@ To check, please run
 1. terraform --version
 2. ansible --version
 
-<img width="944" alt="image" src="https://github.com/user-attachments/assets/d9236fc4-bdc4-41df-88ba-971753ffbb66" />
+<img width="934" alt="image" src="https://github.com/user-attachments/assets/ef86df79-2f9a-400c-9782-4b3fddac29da" />
 
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/784a37f1-e579-4c0a-a2fe-00a1f452e85f" />
 
