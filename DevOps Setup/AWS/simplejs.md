@@ -55,7 +55,13 @@ Once both installed successfully. Please generate key pairs using command "ssh-k
 <img width="779" alt="image" src="https://github.com/user-attachments/assets/7e4e7c0e-b2a5-4586-b62a-0798a760e856" />
 
 
-run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
+# Lets install jenkins, Docker & AWS cli using ansible in VM which created by Terraform
+
+10. Please update you ip-address & your .pemfile path in host.ini file
+<img width="505" alt="image" src="https://github.com/user-attachments/assets/f1c5d49c-bfc3-4c87-a43a-4fb7cb9033c3" />
+
+
+11. run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
 once connectivity success. Please run "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
 
 
