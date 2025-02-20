@@ -1,6 +1,6 @@
 # Deploy a simple js frontend app into EKS through automation
 
-## NOTE: Since i don't git due to organization restriction. I created a ubuntu VM in EC2
+#### NOTE: Since i don't git due to organization restriction. I created a ubuntu VM in EC2 as IAM user
 
 1. Create a instance in AWS (deny all outbound rules in SG), then install ansible & terraform
    
@@ -55,7 +55,7 @@ Once both installed successfully. Please generate key pairs using command "ssh-k
 <img width="779" alt="image" src="https://github.com/user-attachments/assets/7e4e7c0e-b2a5-4586-b62a-0798a760e856" />
 
 
-# Lets install jenkins, Docker & AWS cli using ansible in VM which created by Terraform
+# Lets install jenkins, Docker & AWS cli using ansible in VM which created by Ansible
 
 10. Please update you ip-address & your .pemfile path in host.ini file
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/f1c5d49c-bfc3-4c87-a43a-4fb7cb9033c3" />
@@ -77,8 +77,23 @@ To verify. Please connect with target server and run
 <img width="401" alt="image" src="https://github.com/user-attachments/assets/77f444f2-a8d8-433f-8d69-4a99c9d0a931" />
 
 # Build an Docker image using Jenkins
+12. Try to access url "<pub ip>:8080" ex: http://13.201.57.38:8080/
+<img width="939" alt="image" src="https://github.com/user-attachments/assets/c00adc16-6527-4379-b3d0-f3e9ce4f0a38" />
+
+13. Go to target server & run "sudo cat /var/lib/jenkins/secrets/initialAdminPassword"
+<img width="503" alt="image" src="https://github.com/user-attachments/assets/6cf6c050-064d-4452-b1c5-a09121d07c56" />
+
+14. Once updated password -> select "next" -> "install suggested plugins" -> provide "username & password" -> select "save & continue" -> select "save & finish" -> select "start using jenkins"
+
+15. Once instance start running. Update the docker credentials. For that, go to path jenkinsdashboard -> manage jenkins -> credential -> select "global" at Stores scoped to Jenkins -> select "Add credentials" -> provide "username & password" & save
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/732f9e7b-809b-4689-bf37-be431cff0d8c" />
+
+16. Need to install mandatory plugins. To achieve that, please go to "Dahsboard -> manage jenkins -> plugins -> available plugins -> install "docker & docker pipleine" -> restart the instance by running "sudo systemctl restart jenkins" in your target server or select select the checkbox for auto restart
+
+<img width="645" alt="image" src="https://github.com/user-attachments/assets/aaf4f912-08bc-4353-bceb-706d70ff20b6" />
 
 
+    
 # Issues Faced:
 1. I forgot to add a command in "sudo ./aws/install" in playbook
 <img width="413" alt="image" src="https://github.com/user-attachments/assets/fda23bc4-4ca2-4954-a4c5-4b8b152c3c00" />
