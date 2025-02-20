@@ -6,6 +6,13 @@
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
+### NOTE: Since, I love to use cloud shell instead of connect VM directly. So it's mandatory to follow below steps. Otherwise you can ignore it step upto 5. If you are following below steps. Please update the ip-address with yours
+
+2. open the aws cloud shell & select "actions->upload file to upload "practice.pem"
+3. run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@3.7.71.223:/home/ubuntu/" to upload an pem file into control/master server
+4. run "ssh -i ./.ssh/practice.pem ubuntu@3.7.71.223" to connect with an instance
+5. give access to your pem file by running "chmod 400 ./practice.pem"
+
 To check, please run
 1. terraform --version
 2. ansible --version
@@ -33,10 +40,6 @@ run "ansible -i ./host.ini -m ping linux" to check the connectivity of target se
 once connectivity success. Please run "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
 
 
-3. open the aws cloud shell & select "actions->upload file ex:test.pem"
-4. run "scp -i ~/.ssh/practice.pem ./.ssh/practice.pem ubuntu@35.154.147.17:/home/ubuntu/" to upload an pem file into control/master server
-5. run "ssh -i ./.ssh/practice.pem ubuntu@35.154.147.17" to connect with an instance
-6. give access to your pem file by running "chmod 400 ./practice.pem"
 
 # Working in-progres.......
 
