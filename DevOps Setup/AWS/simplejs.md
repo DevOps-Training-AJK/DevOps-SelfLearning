@@ -104,7 +104,10 @@ To verify. Please connect with target server and run
 # Lets Deploy our image into EKS
 
 19. Create an EKS cluster in AWS
-search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "custom" ->create required role for node & cluster ->
+search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "custom" ->create required role for node & cluster -> create.
+#### NOTE: Based on requirement. Either we can create a cluster in same VPC or use different VPC
+
+20. 
 
 
 
