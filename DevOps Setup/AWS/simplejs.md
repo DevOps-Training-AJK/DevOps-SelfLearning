@@ -85,6 +85,13 @@ To verify. Please connect with target server and run
 #### solution:
 Added the command in playbook & executed "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
 
+
+2. Can't able to access the jenkins instance due to inbound config issue in terraform file
+#### solution:
+Updated the inbound config in .tf file. and ran "terraform plan" & "terraform apply" again
+
+
+
 # Working in-progres.......
 
 
