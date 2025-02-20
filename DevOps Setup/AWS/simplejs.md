@@ -67,8 +67,15 @@ once connectivity success. Please run "ansible-playbook -i ./host.ini ./ansible_
 
 <img width="914" alt="image" src="https://github.com/user-attachments/assets/15714e80-87da-4644-b649-df7bcf8f3864" />
 
+<img width="915" alt="image" src="https://github.com/user-attachments/assets/e9e5e469-58e2-488d-90cc-067aed4f5986" />
 
+To verify. Please connect with target server and run
 
+docker --version
+aws --version
+jenkins --version
+
+![Uploading image.png…]()
 
 
 
