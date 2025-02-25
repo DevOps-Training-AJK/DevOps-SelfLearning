@@ -78,7 +78,7 @@ To verify. Please connect with target server and run
 
 # Build an Docker image using Jenkins
 ## NOTE: If jenkins job need to trigger through webhook instead directly updated jenkinsfile in a pipeline. Please refer the below url:
-https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Jenkins/README.md
+[https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Jenkins/README.md](https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Jenkins/webhook.md)
 
 12. Try to access url "<pub ip>:8080" ex: http://13.201.57.38:8080/
 <img width="939" alt="image" src="https://github.com/user-attachments/assets/c00adc16-6527-4379-b3d0-f3e9ce4f0a38" />
