@@ -119,6 +119,11 @@ search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "
    Please fill the required details. Since it's for testing based on my requirement, I used max 1 node
   <img width="755" alt="image" src="https://github.com/user-attachments/assets/411e32c3-38b8-4f7f-b9b0-1811a829eb5c" />
 
+4. Connect with AKS cluster
+   using command "az aks get-credentials --resource-group $MY_RESOURCE_GROUP_NAME --name $MY_AKS_CLUSTER_NAME"
+   <img width="939" alt="image" src="https://github.com/user-attachments/assets/a9d949e5-4625-4571-9331-a4f942735386" />
+
+
 
 
 
