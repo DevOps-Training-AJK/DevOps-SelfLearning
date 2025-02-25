@@ -107,7 +107,21 @@ To verify. Please connect with target server and run
 search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "custom" ->create required role for node & cluster -> create.
 #### NOTE: Based on requirement. Either we can create a cluster in same VPC or use different VPC
 
-20. 
+# Since I facing technical issue with EKS. I am going ahead witH AKS
+
+# Lets Deploy our image into EKS
+1. Install AZure cli in the client by referring below url
+   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+2. Login into az using "az login" command
+   <img width="959" alt="image" src="https://github.com/user-attachments/assets/754427cd-e5d1-4716-9460-7f6867696c92" />
+3. Once Logged in successfully. Please create a K8s Cluster in AKS.
+   search with keyword "AKS" -> create
+   Please fill the required details. Since it's for testing based on my requirement, I used max 1 node
+  <img width="755" alt="image" src="https://github.com/user-attachments/assets/411e32c3-38b8-4f7f-b9b0-1811a829eb5c" />
+
+
+
+
 
 
 
