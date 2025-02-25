@@ -127,6 +127,9 @@ search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "
    <img width="939" alt="image" src="https://github.com/user-attachments/assets/a9d949e5-4625-4571-9331-a4f942735386" />
 
 
+## once it was connected. Please trigger the jenkins job. It'll automatically build a package & deployed into kubernetes & will expose it externally
+
+
 
 
 
