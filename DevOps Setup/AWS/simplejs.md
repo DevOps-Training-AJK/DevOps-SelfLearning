@@ -4,6 +4,8 @@
 #### 2. To fetch the code from hithub automatically using webhook instead of directly updating jenkinsfile in pipeline job itself & integrate sonarqube into Jenkins. Please refer below url
 https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Jenkins/webhook.md
 
+## Steps:
+
 1. Create a instance in AWS (deny all outbound rules in SG), then install ansible & terraform
    
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/d9236fc4-bdc4-41df-88ba-971753ffbb66" />
