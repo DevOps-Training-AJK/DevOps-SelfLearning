@@ -95,7 +95,7 @@ To verify. Please connect with target server and run
 15. Once instance start running. Update the docker credentials. For that, go to path **jenkinsdashboard -> manage jenkins -> credential -> select "global" at Stores scoped to Jenkins -> select "Add credentials" -> provide "username & password" & save**
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/732f9e7b-809b-4689-bf37-be431cff0d8c" />
 
-16. Need to install mandatory plugins. To achieve that, please go to "**Dahsboard -> manage jenkins -> plugins -> available plugins -> install "docker & docker pipleine" -> restart the instance by running "sudo systemctl restart jenkins"** in your target server or select select the checkbox for auto restart
+16. Need to install mandatory plugins. To achieve that, please go to "**Dahsboard -> manage jenkins -> plugins -> available plugins -> install "docker & docker pipleine" -> restart the instance by running "sudo systemctl restart jenkins"** in your target server or select select the checkbox for auto restart. Once it was completed. Please install "**pipeline: AWS Steps Plugin**" plugin & update the IAM ID, IAM username & IAM password
 
 <img width="645" alt="image" src="https://github.com/user-attachments/assets/aaf4f912-08bc-4353-bceb-706d70ff20b6" />
 
