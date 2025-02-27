@@ -1,24 +1,19 @@
 # Jenkins setup using Azure Cloud
 
 ## Steps:
-1. Open the cloud shell & type "**az login**"
-     <img width="944" alt="image" src="https://github.com/user-attachments/assets/10e42aa9-443c-4a99-97a0-0a09cf5c156a" />
-     <img width="949" alt="image" src="https://github.com/user-attachments/assets/b57296b8-efd7-43e4-85c5-215dd2ea46cf" />
-
-3. Create a VM & connect with VM through cloud shell
-   Upload the pem file into cloud shell
+1. Open the cloud shell & Create a VM & connect with VM through cloud shell then Upload the pem file into cloud shell
 
    Open the VM to get username & public-ip and run **chmod 400 jenkins-setup-practice_key.pem  &  ssh -i jenkins-setup-practice_key.pem azureuser@20.40.46.227** in       cloudshell
-   <img width="959" alt="image" src="https://github.com/user-attachments/assets/d7f852c4-c8fa-4bd7-a1c8-b40e2a92d966" />
-   <img width="950" alt="image" src="https://github.com/user-attachments/assets/6dc2ad02-d4e2-4697-8091-0a98032b116b" />
-   <img width="593" alt="image" src="https://github.com/user-attachments/assets/bacd8183-047f-49d7-b2f3-21ff5634feb3" />
+   <img width="601" alt="image" src="https://github.com/user-attachments/assets/b1460df4-43fb-4998-bbe3-a2c4500e5530" />
+
 
 4. Install Terraform, az client & Ansible
    https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
    https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html
-   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
-   <img width="764" alt="image" src="https://github.com/user-attachments/assets/ed19f5f6-6397-470c-ae1c-b6b268022dd9" />
-   <img width="729" alt="image" src="https://github.com/user-attachments/assets/9847daf9-86ec-42cd-92a7-3b8e6f1636e1" />
+   https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+   <img width="641" alt="image" src="https://github.com/user-attachments/assets/3f4e4526-618e-4341-ac13-5c607ba4fe7d" />
+   <img width="814" alt="image" src="https://github.com/user-attachments/assets/ced6cf2c-2df1-4340-909d-5dc738c9efde" />
+
 
 
 
