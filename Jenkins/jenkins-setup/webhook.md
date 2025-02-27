@@ -3,7 +3,8 @@
 ## Steps:
 1. Open the cloud shell & Create a VM & connect with VM through cloud shell then Upload the pem file into cloud shell
 
-   Open the VM to get username & public-ip and run **chmod 400 jenkins-setup-practice_key.pem  &  ssh -i jenkins-setup-practice_key.pem azureuser@20.40.46.227** in       cloudshell
+   Open the VM to get username & public-ip and run **chmod 400 jenkins-setup-practice_key.pem  &  ssh -i jenkins-setup-practice_key.pem azureuser@20.40.46.227** in cloudshell
+
    <img width="601" alt="image" src="https://github.com/user-attachments/assets/b1460df4-43fb-4998-bbe3-a2c4500e5530" />
 
 
