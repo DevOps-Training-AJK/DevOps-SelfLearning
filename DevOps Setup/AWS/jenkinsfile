@@ -3,6 +3,9 @@ pipeline {
     environment {
         username = "ajithkv98@gmail.com"
         password = credentials('docker')
+        region = ap-south-1
+        name = simplejs-deploy-practice
+
     }
     stages {
         stage('checkout-repo') {
@@ -40,10 +43,14 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        kubectl config set-credentials kubeuser --username=${KUBE_USER} --password=${KUBE_PASS}
-                        kubectl config set-context kubecontext --user=kubeuser --cluster=kubernetes
-                        kubectl create deployment test-deployment-${BUILD_NUMBER} --image=test:${BUILD_NUMBER}
-                        kubectl expose deployment test-deployment-${BUILD_NUMBER} --type=LoadBalancer --port=80 --target-port=80
+                        aws sts get-caller-identity
+                        aws eks --region ${region} update-kubeconfig --name ${name}
+                        kubectl get node
+                        #kubectl create ns simplejs-practice
+                        kubectl create deployment simplejs-deploy-practice-${BUILD_NUMBER} --image=ajithdevops/test:${BUILD_NUMBER} -n simplejs-practice
+                        kubectl expose deployment simplejs-deploy-practice-${BUILD_NUMBER} --type=LoadBalancer --port=80 -n simplejs-practice
+                        sleep 100
+                        kubectl get all -n simplejs-practice
                     '''
                 }
             }
