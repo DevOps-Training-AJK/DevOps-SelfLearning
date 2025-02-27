@@ -13,13 +13,18 @@
    https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html
    https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
    <img width="641" alt="image" src="https://github.com/user-attachments/assets/3f4e4526-618e-4341-ac13-5c607ba4fe7d" />
+   
    <img width="814" alt="image" src="https://github.com/user-attachments/assets/ced6cf2c-2df1-4340-909d-5dc738c9efde" />
 
+
 3. Create a instance using terraform
+   
    <img width="598" alt="image" src="https://github.com/user-attachments/assets/7818e582-9498-4bbe-bde3-77c29fa8b5ed" />
    <img width="763" alt="image" src="https://github.com/user-attachments/assets/c2dad243-a51d-45e5-ba27-9eb83b79354f" />
 
-4. Install jenkins & docker using ansible by updating your public ip in host.ini file
+5. Install jenkins & docker using ansible by updating your public ip in host.ini file
+   <img width="916" alt="image" src="https://github.com/user-attachments/assets/2b874c25-8269-4910-a6c7-a68aabad9e22" />
+
    
 
 
