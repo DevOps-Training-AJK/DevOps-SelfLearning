@@ -1,4 +1,4 @@
-# Deploy a simple js frontend app into EKS through automation
+# Deploy a simple js frontend app into EKS
 ### Repo Url : https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator
 
 #### NOTE: 
