@@ -13,5 +13,11 @@
    <img width="950" alt="image" src="https://github.com/user-attachments/assets/6dc2ad02-d4e2-4697-8091-0a98032b116b" />
    <img width="593" alt="image" src="https://github.com/user-attachments/assets/bacd8183-047f-49d7-b2f3-21ff5634feb3" />
 
+4. Install Terraform & Ansible
+   https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+   https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html
+   <img width="764" alt="image" src="https://github.com/user-attachments/assets/ed19f5f6-6397-470c-ae1c-b6b268022dd9" />
+
+
 
 
