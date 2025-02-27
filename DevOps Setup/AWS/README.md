@@ -1,4 +1,5 @@
 # Deploy a simple js frontend app into EKS through automation
+### Repo Url : https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator
 
 #### NOTE: 
 #### 1. Since i don't have git installed due to organization restriction. I created a ubuntu VM in EC2 as IAM user
