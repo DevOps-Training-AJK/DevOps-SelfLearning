@@ -14,10 +14,10 @@
 
 ### NOTE: Since, I love to use cloud shell instead of connect VM directly. So it's mandatory to follow below steps. Otherwise you can ignore it step upto 5. If you are following below steps. Please update the ip-address with yours
 
-2. open the aws cloud shell & select "actions->upload file to upload "practice.pem". In my case, I created a folder called .ssh & uploaded the pem file within .ssh folder. You can create your own folder & paste the pem file into it
-3. run "scp -i ~/.ssh/practice.pem ./practice.pem ubuntu@3.7.71.223:/home/ubuntu/" to upload an pem file into control/master server
-4. give access to your pem file by running "chmod 400 ./practice.pem"
-5. run "ssh -i ./.ssh/practice.pem ubuntu@3.7.71.223" to connect with an instance
+2. open the aws cloud shell & select "**actions->upload file to upload "practice.pem"**. In my case, I created a folder called .ssh & uploaded the pem file within .ssh folder. You can create your own folder & paste the pem file into it
+3. run "**scp -i ~/.ssh/practice.pem ./practice.pem ubuntu@3.7.71.223:/home/ubuntu/**" to upload an pem file into control/master server
+4. give access to your pem file by running "**chmod 400 ./practice.pem**"
+5. run "**ssh -i ./.ssh/practice.pem ubuntu@3.7.71.223**" to connect with an instance
 
 <img width="924" alt="image" src="https://github.com/user-attachments/assets/d6725c16-c9e9-4296-ba4c-567e3b2843fc" />
 <img width="360" alt="image" src="https://github.com/user-attachments/assets/3d1c1693-3576-4c97-93ae-04c36648a5ab" />
@@ -33,7 +33,7 @@ To check, please run
 
 <img width="934" alt="image" src="https://github.com/user-attachments/assets/ef86df79-2f9a-400c-9782-4b3fddac29da" />
 
-Once both installed successfully. Please generate key pairs using command "ssh-keygen" & update your public key into your repository (Profile -> settings -> GPG & SSH keys -> create key). Please make sure no extra space exist in public key while updating
+Once both installed successfully. Please generate key pairs using command "**ssh-keygen**" & update your public key into your repository (**Profile -> settings -> GPG & SSH keys -> create key**). Please make sure no extra space exist in public key while updating
 
 <img width="528" alt="image" src="https://github.com/user-attachments/assets/e0d62256-11cb-43b0-be10-10d68fbac32f" />
 
@@ -46,9 +46,9 @@ Once both installed successfully. Please generate key pairs using command "ssh-k
 # Lets create a VM using terraform
 
 8. run "nano *.tf" or use "vi or vim" and update your access & secret key. press "ctrl+o" then "ctrl+x"
-9. Now run "terraform init", "terraform plan". Once there is no error message. Please try "terraform apply"
+9. Now run "**terraform init**", "**terraform plan**". Once there is no error message. Please try "**terraform apply**"
    #### NOTE: Don't forgot to update you access & secret key (which isn't a best practice. It's for just practice). If you going to add key. Please update with your respective .pem file name
-   To get access & secret key. Go to AWS UI -> profile -> security credentials -> scroll down & select "create access key"
+   To get access & secret key. Go to **AWS UI -> profile -> security credentials -> scroll down & select "create access key"**
 
 <img width="433" alt="image" src="https://github.com/user-attachments/assets/c5010fbd-a6c6-4fa8-8085-2d0e55182c32" />
 
@@ -67,8 +67,8 @@ Once both installed successfully. Please generate key pairs using command "ssh-k
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/f1c5d49c-bfc3-4c87-a43a-4fb7cb9033c3" />
 
 
-11. run "ansible -i ./host.ini -m ping linux" to check the connectivity of target server 
-once connectivity success. Please run "ansible-playbook -i ./host.ini ./ansible_simplejs.yml"
+11. run "**ansible -i ./host.ini -m ping linux**" to check the connectivity of target server 
+once connectivity success. Please run "**ansible-playbook -i ./host.ini ./ansible_simplejs.yml**"
 #### NOTE: If you are facing connectivity due to permission issue. Please run "chmod 600 practice.pem" 
 
 <img width="914" alt="image" src="https://github.com/user-attachments/assets/15714e80-87da-4644-b649-df7bcf8f3864" />
@@ -90,16 +90,16 @@ To verify. Please connect with target server and run
 13. Go to target server & run "sudo cat /var/lib/jenkins/secrets/initialAdminPassword"
 <img width="503" alt="image" src="https://github.com/user-attachments/assets/6cf6c050-064d-4452-b1c5-a09121d07c56" />
 
-14. Once updated password -> select "next" -> "install suggested plugins" -> provide "username & password" -> select "save & continue" -> select "save & finish" -> select "start using jenkins"
+14. **Once updated password -> select "next" -> "install suggested plugins" -> provide "username & password" -> select "save & continue" -> select "save & finish" -> select "start using jenkins"**
 
-15. Once instance start running. Update the docker credentials. For that, go to path jenkinsdashboard -> manage jenkins -> credential -> select "global" at Stores scoped to Jenkins -> select "Add credentials" -> provide "username & password" & save
+15. Once instance start running. Update the docker credentials. For that, go to path **jenkinsdashboard -> manage jenkins -> credential -> select "global" at Stores scoped to Jenkins -> select "Add credentials" -> provide "username & password" & save**
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/732f9e7b-809b-4689-bf37-be431cff0d8c" />
 
-16. Need to install mandatory plugins. To achieve that, please go to "Dahsboard -> manage jenkins -> plugins -> available plugins -> install "docker & docker pipleine" -> restart the instance by running "sudo systemctl restart jenkins" in your target server or select select the checkbox for auto restart
+16. Need to install mandatory plugins. To achieve that, please go to "**Dahsboard -> manage jenkins -> plugins -> available plugins -> install "docker & docker pipleine" -> restart the instance by running "sudo systemctl restart jenkins"** in your target server or select select the checkbox for auto restart
 
 <img width="645" alt="image" src="https://github.com/user-attachments/assets/aaf4f912-08bc-4353-bceb-706d70ff20b6" />
 
-17. Create a pipeline job. Dashboard -> Newitem -> select "pipeline" -> name of pipeline -> ok -> go to "pipeline" section copy the jenkinsfile content which exist in our repo & paste it like below -> save -> build now
+17. Create a pipeline job. **Dashboard -> Newitem -> select "pipeline" -> name of pipeline -> ok -> go to "pipeline"** section copy the jenkinsfile content which exist in our repo & paste it like below -> save -> build now
 
 <img width="943" alt="image" src="https://github.com/user-attachments/assets/2a68bbb2-edaa-47c9-ad36-83483ec793ec" />
 
@@ -111,8 +111,7 @@ To verify. Please connect with target server and run
 # Lets Deploy our image into EKS
 
 19. Create an EKS cluster in AWS
-search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "custom" ->create required role for node & cluster -> create.
-#### NOTE: Based on requirement. Either we can create a cluster in same VPC or use different VPC
+**search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "custom" ->create required role for node & cluster -> create.**
 In my case, I used custom configuration with below roles permission & 1 node configuration in node pool
 ## For Cluster IAM role
 <img width="703" alt="image" src="https://github.com/user-attachments/assets/3d0d8b40-7cf5-4602-b13c-55924f2fbd90" />
