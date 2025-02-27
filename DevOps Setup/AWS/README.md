@@ -3,7 +3,7 @@
 #### NOTE: 
 #### 1. Since i don't have git installed due to organization restriction. I created a ubuntu VM in EC2 as IAM user
 #### 2. This is just a simple setup. If want to fetch the code from Github automatically using webhook instead of directly updating jenkinsfile in pipeline job itself & integrate sonarqube into Jenkins. Please refer below url.
-https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Jenkins/webhook.md
+[Jenkins Setup](https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Jenkins/jenkins-setup/webhook.md)
 
 ## Steps:
 
