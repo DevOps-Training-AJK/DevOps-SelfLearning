@@ -125,6 +125,18 @@ In my case, I used custom configuration with below roles permission & 1 node con
 
 ## Once Cluster was created successfully. Please trigger the jenkins job. It'll automatically build a package & deployed into kubernetes & will expose it externally
 
+# OUTPUT:
+
+1. [jenkins-output.txt](https://github.com/user-attachments/files/19002724/jenkins-output.txt)
+2. <img width="956" alt="image" src="https://github.com/user-attachments/assets/77e613d3-af36-4e71-ae72-c1515e46f192" />
+3. <img width="955" alt="image" src="https://github.com/user-attachments/assets/47dea4a7-cd91-4ac6-b42e-6005d2ecf523" />
+4. <img width="959" alt="image" src="https://github.com/user-attachments/assets/3950b345-5e25-42bf-b252-0d730a818d8a" />
+5. <img width="959" alt="image" src="https://github.com/user-attachments/assets/298c190c-988e-46dc-9ab8-51d6dbf49caa" />
+6. <img width="959" alt="image" src="https://github.com/user-attachments/assets/18d4dd7e-6798-4677-876f-42c0c8095fc0" />
+7. <img width="959" alt="image" src="https://github.com/user-attachments/assets/98eb3e1a-f646-401a-8f89-9ef5152a94cc" />
+
+
+
 
 
 
@@ -145,10 +157,4 @@ In my case, I used custom configuration with below roles permission & 1 node con
 
 2. Can't able to access the jenkins instance due to inbound config issue in terraform file
 #### solution: Updated the inbound config in .tf file. and ran "terraform plan" & "terraform apply" again
-
-
-
-# Working in-progres.......
-
-
 
