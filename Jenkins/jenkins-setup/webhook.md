@@ -25,6 +25,9 @@
 5. Install jenkins & docker using ansible by updating your public ip in host.ini file
    <img width="916" alt="image" src="https://github.com/user-attachments/assets/2b874c25-8269-4910-a6c7-a68aabad9e22" />
 
+
+   # Working in-progress.......
+
    
 
 
