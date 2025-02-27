@@ -111,25 +111,19 @@ To verify. Please connect with target server and run
 19. Create an EKS cluster in AWS
 search "Elastic Kubernetes service" -> create cluster ->go with "auto mode" or "custom" ->create required role for node & cluster -> create.
 #### NOTE: Based on requirement. Either we can create a cluster in same VPC or use different VPC
+In my case, I used custom configuration with below roles permission & 1 node configuration in node pool
+## For Cluster IAM role
+<img width="703" alt="image" src="https://github.com/user-attachments/assets/3d0d8b40-7cf5-4602-b13c-55924f2fbd90" />
 
-# Since I facing technical issue with EKS. I am going ahead witH AKS
+## For Node IAM role
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/d9ef459e-d4f4-48b1-8ba5-4c061c6e1589" />
 
-# Lets Deploy our image into EKS
-1. Install AZure cli in the client by referring below url
-   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
-2. Login into az using "az login" command
-   <img width="959" alt="image" src="https://github.com/user-attachments/assets/754427cd-e5d1-4716-9460-7f6867696c92" />
-3. Once Logged in successfully. Please create a K8s Cluster in AKS.
-   search with keyword "AKS" -> create
-   Please fill the required details. Since it's for testing based on my requirement, I used max 1 node
-  <img width="755" alt="image" src="https://github.com/user-attachments/assets/411e32c3-38b8-4f7f-b9b0-1811a829eb5c" />
-
-4. Connect with AKS cluster
-   using command "az aks get-credentials --resource-group $MY_RESOURCE_GROUP_NAME --name $MY_AKS_CLUSTER_NAME"
-   <img width="939" alt="image" src="https://github.com/user-attachments/assets/a9d949e5-4625-4571-9331-a4f942735386" />
+## For Node group
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/b4a4f036-d420-4ba2-8bc2-34e8c8c44df9" />
 
 
-## once it was connected. Please trigger the jenkins job. It'll automatically build a package & deployed into kubernetes & will expose it externally
+
+## Once Cluster was created successfully. Please trigger the jenkins job. It'll automatically build a package & deployed into kubernetes & will expose it externally
 
 
 
