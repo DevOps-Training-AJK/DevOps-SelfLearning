@@ -13,10 +13,13 @@
    <img width="950" alt="image" src="https://github.com/user-attachments/assets/6dc2ad02-d4e2-4697-8091-0a98032b116b" />
    <img width="593" alt="image" src="https://github.com/user-attachments/assets/bacd8183-047f-49d7-b2f3-21ff5634feb3" />
 
-4. Install Terraform & Ansible
+4. Install Terraform, az client & Ansible
    https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
    https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html
+   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
    <img width="764" alt="image" src="https://github.com/user-attachments/assets/ed19f5f6-6397-470c-ae1c-b6b268022dd9" />
+   <img width="729" alt="image" src="https://github.com/user-attachments/assets/9847daf9-86ec-42cd-92a7-3b8e6f1636e1" />
+
 
 
 
