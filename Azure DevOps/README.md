@@ -92,6 +92,10 @@ I made a small changes in azure pipeline ina repo. It automatically triggers the
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/66f61e8e-52e6-428d-9754-da4b6bceb6da" />
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/7fd14dde-af00-418c-9463-395fcef4eae6" />
 
+Once it was done. Please close all the tasks assigned
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/ebd1f08e-0a5a-4ac3-aa32-811c004d636d" />
+
+
 
 
 
