@@ -78,20 +78,26 @@
    5.   Run the pipeline
 
 
-          
+
+# Final Output
+I made a small changes in azure pipeline ina repo. It automatically triggers the pipeline, do code analysis, build docker image & upload it into EKS
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/294127e1-aa2e-42b8-b3e6-2dcd83d3c29d" />
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/7e7c47c7-d0c6-486a-b2f2-d9c9437a6f24" />
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/33896944-587d-43db-a629-77f3fdfdf45c" />
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/a76ae0df-42b5-4ac1-9c6f-1af84e37028e" />
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/171fbd2b-8889-4fc0-96be-e7292c978cb8" />
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/ade4d8d4-00ac-4a2f-bed5-1763145ae2fa" />
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/b4de73e6-3fad-4bbb-9d23-3b5509478d94" />
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/66f61e8e-52e6-428d-9754-da4b6bceb6da" />
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/7fd14dde-af00-418c-9463-395fcef4eae6" />
 
 
 
-   
 
 
 
-   
 
 
 
-   
 
-
-
-# Working in progress........
