@@ -32,7 +32,7 @@
     <img width="735" alt="image" src="https://github.com/user-attachments/assets/4bf14d3c-e884-4f5a-893d-12e190a8b996" />
     <img width="721" alt="image" src="https://github.com/user-attachments/assets/ef6aa161-1111-4bdf-9893-3bf689ba4946" />
 
-    b.  Select your pool name "ado-setup" -> new agent -> select OS. In my case. I am using "linux". Follow the instructions as it shown
+    b.  Select your pool name "ado-setup" -> new agent -> select OS. In my case. I am using "linux". Follow the instructions as it shown. Before executing this. Please create a token by user settings -> personal access token -> create
     <img width="816" alt="image" src="https://github.com/user-attachments/assets/8d6b86c0-9372-4a58-8167-8f70b6607f4b" />
     <img width="731" alt="image" src="https://github.com/user-attachments/assets/a95d7490-9fbb-41e3-8a28-8bb00a34ef7e" />
 
