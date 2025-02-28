@@ -1,4 +1,5 @@
 1. Imported an existing repo from Github to Azure repo
+   
   <img width="959" alt="image" src="https://github.com/user-attachments/assets/a738b97d-d87a-47c7-9178-008dd67609b4" />
   <img width="953" alt="image" src="https://github.com/user-attachments/assets/9be411d1-10ed-4e39-9011-4228392e8980" />
 
@@ -27,7 +28,7 @@
    <img width="911" alt="image" src="https://github.com/user-attachments/assets/573d23af-d010-47b2-beee-bbe948fffbe5" />
    <img width="574" alt="image" src="https://github.com/user-attachments/assets/a41194ac-2cea-4073-af81-25982d165421" />
 
-3.  Let add a new VM as agent pool in ADO
+4.  Let add a new VM as agent pool in ADO
     a.  Go to project settings -> Agent pool -> Add pool -> select "new" & "self hosted" -> give name of pool & enable checkbox if want to use this agent across all pipelines
     <img width="735" alt="image" src="https://github.com/user-attachments/assets/4bf14d3c-e884-4f5a-893d-12e190a8b996" />
     <img width="721" alt="image" src="https://github.com/user-attachments/assets/ef6aa161-1111-4bdf-9893-3bf689ba4946" />
@@ -36,7 +37,21 @@
     <img width="816" alt="image" src="https://github.com/user-attachments/assets/8d6b86c0-9372-4a58-8167-8f70b6607f4b" />
     <img width="731" alt="image" src="https://github.com/user-attachments/assets/a95d7490-9fbb-41e3-8a28-8bb00a34ef7e" />
 
+5. Add Sonarqube & Docker in ADO
+   a.  To configure docker. Go to project settings -> service connections -> create service connections -> type "docker registry" -> update "username, password & service name" -> verify & save
+   <img width="710" alt="image" src="https://github.com/user-attachments/assets/00939e57-2179-4509-9a3b-b2a5181148d0" />
+   b. To configure sonarqube
+     1.  Create a sonarqube instance. Go to our cloudshell & connect with our test VM & install docker
+         <img width="292" alt="image" src="https://github.com/user-attachments/assets/946a27a8-63a8-4140-9f0b-0612c60b1156" />
+     2.   To run sonarqube through docker. Please run following command "docker run --name sonarqube -d -p 9000:9000 sonarqube:10.6-community"
+          <img width="944" alt="image" src="https://github.com/user-attachments/assets/8f1be25b-bf80-4d3c-be4b-a88139d8cbbc" />
+          <img width="954" alt="image" src="https://github.com/user-attachments/assets/bbe2cbc7-a3eb-47a4-ba87-8b6716812fb9" />
 
+          
+
+
+
+   
 
 
 
