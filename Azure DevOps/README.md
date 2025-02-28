@@ -63,7 +63,9 @@
       <img width="950" alt="image" src="https://github.com/user-attachments/assets/789133b3-5d5a-44af-8aab-6513c5883cde" />
       <img width="942" alt="image" src="https://github.com/user-attachments/assets/7a42f68e-b88d-4566-951d-30700eaee9da" />
 
-
+# lets deploy into EKS
+   1.   Create a EKS cluster in AWS. Please find the procedure in below url
+         https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/DevOps%20Setup/AWS/README.md
 
           
 
