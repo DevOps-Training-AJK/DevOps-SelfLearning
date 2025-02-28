@@ -46,6 +46,11 @@
      2.   To run sonarqube through docker. Please run following command "docker run --name sonarqube -d -p 9000:9000 sonarqube:10.6-community"
           <img width="944" alt="image" src="https://github.com/user-attachments/assets/8f1be25b-bf80-4d3c-be4b-a88139d8cbbc" />
           <img width="954" alt="image" src="https://github.com/user-attachments/assets/bbe2cbc7-a3eb-47a4-ba87-8b6716812fb9" />
+     3. Try Username: admin & password: admin by default & customize your own password. select "import from azure dveops" -> update your organization url & PAT -> save
+        <img width="959" alt="image" src="https://github.com/user-attachments/assets/18a876a2-a65b-4c0d-b58d-fbb6a35e425d" />
+
+     4. Go to profile -> myaccount -> security -> Generate your token
+     5. Go to ADO. In that, project settings -> service connections -> New service connections ->
 
           
 
