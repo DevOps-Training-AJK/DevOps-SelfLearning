@@ -58,7 +58,12 @@
 
 
    ## Lets create a pipleine
-   1. Go to the Azure repo -> select "set up build" -> starter pipeline -> show assistant -> select the required one & update the pipeline -> select "save"
+   1. Go to the Azure repo -> select "set up build" -> starter pipeline -> show assistant -> select the required one & update the pipeline -> select "save" -> run the pipeline
+      <img width="959" alt="image" src="https://github.com/user-attachments/assets/fc8c2ed7-9ea6-4d79-a594-c80309b340f5" />
+      <img width="950" alt="image" src="https://github.com/user-attachments/assets/789133b3-5d5a-44af-8aab-6513c5883cde" />
+      <img width="942" alt="image" src="https://github.com/user-attachments/assets/7a42f68e-b88d-4566-951d-30700eaee9da" />
+
+
 
           
 
