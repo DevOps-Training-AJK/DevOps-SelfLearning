@@ -78,8 +78,11 @@
    3. Install "AWS toolkit" plugin
       https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-vsts-tools
 
-   4.   Go to service connections -> search "aws" -> update access & secret key -> enable OIDC checkbox
+   4.   Go to service connections -> search "aws" -> update access & secret key -> enable OIDC checkbox(for more secure)
    5.   Run the pipeline
+
+      <img width="732" alt="image" src="https://github.com/user-attachments/assets/571bdfdf-f64e-460b-879a-797bbea810b0" />
+
 
 
 
