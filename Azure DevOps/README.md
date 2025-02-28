@@ -56,6 +56,10 @@
    6. In ADO, Go to project settings -> service connections -> sonarqube server -> update the url & token -> click "save"
       <img width="722" alt="image" src="https://github.com/user-attachments/assets/072a167b-09ec-4e11-a8ff-65bde75f6915" />
 
+
+   ## Lets create a pipleine
+   1. Go to the Azure repo -> select "set up build" -> starter pipeline -> show assistant -> select the required one & update the pipeline -> select "save"
+
           
 
 
