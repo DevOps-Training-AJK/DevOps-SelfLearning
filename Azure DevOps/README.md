@@ -49,8 +49,12 @@
      3. Try Username: admin & password: admin by default & customize your own password. select "import from azure dveops" -> update your organization url & PAT -> save
         <img width="959" alt="image" src="https://github.com/user-attachments/assets/18a876a2-a65b-4c0d-b58d-fbb6a35e425d" />
 
-     4. Go to profile -> myaccount -> security -> Generate your token
-     5. Go to ADO. In that, project settings -> service connections -> New service connections ->
+     4. Go to profile -> myaccount -> security -> Generate your token from sonarqube
+     5. Go to ulr https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube and select > Get it free -> choose your organization -> select install -> Proceed to organization
+        <img width="919" alt="image" src="https://github.com/user-attachments/assets/640ae942-79f1-4b89-9f99-6e5442c35661" />
+        ### NOTE: Please sign with same crednetial in marketplace
+   6. In ADO, Go to project settings -> service connections -> sonarqube server -> update the url & token -> click "save"
+      <img width="722" alt="image" src="https://github.com/user-attachments/assets/072a167b-09ec-4e11-a8ff-65bde75f6915" />
 
           
 
