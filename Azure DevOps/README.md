@@ -67,6 +67,17 @@
    1.   Create a EKS cluster in AWS. Please find the procedure in below url
          https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/DevOps%20Setup/AWS/README.md
 
+   2. Once cluster created along with node pool based on requiremen. In my case, i used only 1 node alone
+      <img width="959" alt="image" src="https://github.com/user-attachments/assets/dece36ec-0b0d-431e-bec5-24ba7974c02f" />
+      <img width="728" alt="image" src="https://github.com/user-attachments/assets/e40c5c95-6ef1-4d52-bd71-f2cc5ab4ee50" />
+
+   3. Install "AWS toolkit" plugin
+      https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-vsts-tools
+
+   4.   Go to service connections -> search "aws" -> update access & secret key -> enable OIDC checkbox
+   5.   Run the pipeline
+
+
           
 
 
