@@ -1,4 +1,4 @@
-# Working in progress...... 1. Create an ingress & 2. Using access & secret using hashicorp vault
+# Working in progress...... 1. Create an ingress, 2. Using access & secret using hashicorp vault & 3. Integrate with sonarqube
 
 # Deploy a simple js frontend app into EKS
 ### Repo Url : https://github.com/DevOps-Training-AJK/Test-Frontend-app-Calculator
