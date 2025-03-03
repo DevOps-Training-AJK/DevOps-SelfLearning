@@ -1,3 +1,5 @@
+# Working in progress - 1. Create an ingress deployment & 2. Create a template update in azure-pipeline.yml file
+
 # Create a CICD Pipeline through ADO
 #### Repo url: https://dev.azure.com/ajithkv980561/_git/DevOps-Setup
 
