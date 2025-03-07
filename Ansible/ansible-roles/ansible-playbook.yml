@@ -1,6 +1,6 @@
 ---
-- name: Installing Docker, AWS Cli & Jenkins
-  hosts: linux
+- name: Install Jenkins
+  hosts: all
   become: yes
   roles:
     - configure-ec2-ansible-practice
