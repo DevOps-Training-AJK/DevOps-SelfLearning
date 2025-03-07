@@ -3,7 +3,7 @@
 - name: Copy html file
   ansible.builtin.copy:
     src: {{ source  }}
-    dest: ~/
+    dest: ./
     owner: foo
     group: foo
     mode: '0644'
