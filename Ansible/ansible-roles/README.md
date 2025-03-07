@@ -8,14 +8,15 @@
 4. Updated the required configuration
    <img width="917" alt="image" src="https://github.com/user-attachments/assets/d1803572-9328-4db6-b707-17d00e8d418b" />
 5. Updated pem file into target server ie vm2
+
    <img width="464" alt="image" src="https://github.com/user-attachments/assets/275ff752-4bc8-429a-a380-4667d9f7e5b6" />
-6. Create an inventory file & playbook file
+7. Create an inventory file & playbook file
    <img width="957" alt="image" src="https://github.com/user-attachments/assets/406013b0-693d-4996-ac3a-b1e49a41afca" />
-7.  checking connectivity of instance. go to root path of folder ans run "ansible -i ./host.ini -m ping all"
+8.  checking connectivity of instance. go to root path of folder ans run "ansible -i ./host.ini -m ping all"
    <img width="949" alt="image" src="https://github.com/user-attachments/assets/101ce92a-8f31-4afb-b4fc-befff5ea342b" />
-8. Once it fine. run "ansible-playbook -i ./host.ini ./ansible-playbook.yml"
+9. Once it fine. run "ansible-playbook -i ./host.ini ./ansible-playbook.yml"
    <img width="944" alt="image" src="https://github.com/user-attachments/assets/d7b6c9ab-f3ad-4db0-ad04-3736827cb4f1" />
-9. Connect with VM2 and validate it
+10. Connect with VM2 and validate it
     <img width="952" alt="image" src="https://github.com/user-attachments/assets/81b9a71a-b545-4901-8506-b0c067fe8dfc" />
 
 
