@@ -5,4 +5,6 @@
   - task:
       name: install java
       shell: |
+        apt install openjdk-17-jdk -y
+    notify: Copy html file
          
