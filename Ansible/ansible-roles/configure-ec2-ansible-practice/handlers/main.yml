@@ -2,7 +2,7 @@
 # handlers file for configure-ec2-ansible-practice
 - name: Copy html file
   ansible.builtin.copy:
-    src: {{ source  }}
+    src: "{{ source  }}"
     dest: ./
     owner: root
     group: root
