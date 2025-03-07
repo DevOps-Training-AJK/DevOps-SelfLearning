@@ -1,0 +1,8 @@
+---
+- name: ansible-practice-role
+  hosts: all
+  become: yes
+  - task:
+      name: install java
+      shell: |
+         
