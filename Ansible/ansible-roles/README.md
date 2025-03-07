@@ -5,4 +5,7 @@
    <img width="953" alt="image" src="https://github.com/user-attachments/assets/c1090702-b64a-4503-b9d7-5f82c9b164ef" />
 3. Create a role using "ansible-galaxy role init <role name>" in Vm1
    <img width="926" alt="image" src="https://github.com/user-attachments/assets/1ec41d84-e318-4dc7-9ef9-a7e395706551" />
+4. Updated the required configuration
+   <img width="917" alt="image" src="https://github.com/user-attachments/assets/d1803572-9328-4db6-b707-17d00e8d418b" />
+
 
