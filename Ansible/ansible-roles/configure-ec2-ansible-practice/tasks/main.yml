@@ -1,5 +1,6 @@
 ---
 - name: install java
   shell: |
-    apt install openjdk-17-jre
+    sudo apt update -y
+    sudo apt install openjdk-17-jre -y
   notify: Copy html file      
