@@ -20,6 +20,9 @@
 
 # Issues Faced:
 1. <img width="818" alt="image" src="https://github.com/user-attachments/assets/fea7921a-5cd2-4f2e-be3a-0d8babfa9969" />
+2. Faced issue while installing java
+   <img width="937" alt="image" src="https://github.com/user-attachments/assets/bf456cc7-450d-48c1-9eec-eac80a4dc52c" />
+
 
 
 
