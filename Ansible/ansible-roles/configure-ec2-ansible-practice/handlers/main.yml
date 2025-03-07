@@ -4,6 +4,6 @@
   ansible.builtin.copy:
     src: {{ source  }}
     dest: ./
-    owner: foo
-    group: foo
+    owner: root
+    group: root
     mode: '0644'
