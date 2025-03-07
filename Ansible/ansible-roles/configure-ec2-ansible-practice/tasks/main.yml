@@ -1,10 +1,5 @@
 ---
-- name: ansible-practice-role
-  hosts: all
-  become: yes
-  - task:
-      name: install java
-      shell: |
-        apt install openjdk-17-jdk -y
-    notify: Copy html file
-         
+- name: install java
+  shell: |
+    apt install openjdk-17-jdk -y
+  notify: Copy html file      
