@@ -11,9 +11,10 @@
    <img width="464" alt="image" src="https://github.com/user-attachments/assets/275ff752-4bc8-429a-a380-4667d9f7e5b6" />
 6. Create an inventory file & playbook file
    <img width="957" alt="image" src="https://github.com/user-attachments/assets/406013b0-693d-4996-ac3a-b1e49a41afca" />
-7.  checking connectivity of instance
+7.  checking connectivity of instance. go to root path of folder ans run "ansible -i ./host.ini -m ping all"
    <img width="949" alt="image" src="https://github.com/user-attachments/assets/101ce92a-8f31-4afb-b4fc-befff5ea342b" />
-8. Once it fine. run "ans"
+8. Once it fine. run "ansible-playbook -i ./host.ini ./ansible-playbook.yml"
+   <img width="944" alt="image" src="https://github.com/user-attachments/assets/d7b6c9ab-f3ad-4db0-ad04-3736827cb4f1" />
 
 
 
