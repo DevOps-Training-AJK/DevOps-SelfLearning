@@ -15,6 +15,9 @@
    <img width="949" alt="image" src="https://github.com/user-attachments/assets/101ce92a-8f31-4afb-b4fc-befff5ea342b" />
 8. Once it fine. run "ansible-playbook -i ./host.ini ./ansible-playbook.yml"
    <img width="944" alt="image" src="https://github.com/user-attachments/assets/d7b6c9ab-f3ad-4db0-ad04-3736827cb4f1" />
+9. Connect with VM2 and validate it
+    <img width="952" alt="image" src="https://github.com/user-attachments/assets/81b9a71a-b545-4901-8506-b0c067fe8dfc" />
+
 
 
 
