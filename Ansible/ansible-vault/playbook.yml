@@ -1,0 +1,13 @@
+---
+---
+- name: copy files
+  hosts: linux
+  become: yes
+  task:
+    - name: Copy html file
+      ansible.builtin.copy:
+        src: "./index.html"
+        dest: ./
+        owner: root
+        group: root
+        mode: '0644'
