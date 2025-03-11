@@ -1,4 +1,4 @@
-# Deploying small Web app into AKS
+# Deploying simple Web app into AKS
 
 ## Steps:
 1. Created a Resource group & Ubuntu VM in Azure
