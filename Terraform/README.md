@@ -1,3 +1,8 @@
+# setup -1
+Please refer the below url:
+https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/tree/main/DevOps%20Setup/AWS
+
+# setup -2
 Install Terraform in Ubuntu using below url:
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
