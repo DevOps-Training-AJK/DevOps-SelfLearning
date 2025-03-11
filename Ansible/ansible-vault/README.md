@@ -16,5 +16,6 @@
 
    Create a .txt file in a centralized repo which you have access alone & update your vault password in it.
    
-   clone the centralized repo and run "ansible-playbook -i host.ini ansible.yml --vault-password-file=./ajk.txt"
+   clone the centralized repo and run "ansible-playbook -i ../ajk/host.ini ../ajk/ansible.yml --vault-password-file=./ajk.txt"
+   NOTE: Please update the path of host.ini, ansible.yml & .txt file based on your env
 
