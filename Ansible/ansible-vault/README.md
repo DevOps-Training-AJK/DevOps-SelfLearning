@@ -10,14 +10,14 @@
    <img width="765" alt="image" src="https://github.com/user-attachments/assets/63bd1906-242a-4b2d-8efd-f2061b728e8c" />
 
 4. Once yml file was created. Please upadte the input in host.ini file and check the connectivity using
-   "ansible -i ./host.ini -m ping linux --ask-vault-pass"
+   "**ansible -i ./host.ini -m ping linux --ask-vault-pass**"
 
-5. Once connectivity success. Please run "ansible-playbook -i host.ini ansible-yml --ask-vault-pass"
+5. Once connectivity success. Please run "**ansible-playbook -i host.ini ansible-yml --ask-vault-pass**"
 
    (or)
 
    Create a .txt file in a centralized repo which you have access alone & update your vault password in it.
    
-   clone the centralized repo and run "ansible-playbook -i ../ajk/host.ini ../ajk/ansible.yml --vault-password-file=./ajk.txt"
+   clone the centralized repo and run "**ansible-playbook -i ../ajk/host.ini ../ajk/ansible.yml --vault-password-file=./ajk.txt**"
    NOTE: Please update the path of host.ini, ansible.yml & .txt file based on your env
 
