@@ -2,7 +2,7 @@
 
 ## Steps:
 1. Created a VM in Azure & installed Az cli.
-2. Logging into AZ cloud "az login" & update the code & select the "subscription no or id". To verify, please run "az account show"
+2. Logging into AZ cloud. use "az login" & update the code which display in cli & select the "subscription no or id". To verify, please run "az account show"
 3. Clone the repo & go to path "DevOps-SelfLearning/Azure/ARM-Template"
 4. Inside the above path created a .json file used to create a vnet & subnet.
 5. Run "az deployment group create --name vnet-practice --resource-group practice --template-file ./vnet.json"
