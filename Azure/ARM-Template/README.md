@@ -7,6 +7,7 @@
 https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Azure/ARM-Template/vnet.md
 
 ### Network security group creation
+https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Azure/ARM-Template/nsg.md
 
 
 ### Azure storage creation
