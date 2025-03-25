@@ -1,4 +1,7 @@
 # Netowrk security group creation
+
+Run "az deployment group create --name vnet-practice --resource-group practice --template-file ./nsg.json"
+
 <img width="951" alt="image" src="https://github.com/user-attachments/assets/e6fb98e2-9fd3-43d1-8524-b56e19aa7b81" />
 <img width="812" alt="image" src="https://github.com/user-attachments/assets/f1d0b85a-a0f5-4227-9c7d-6e7010280d17" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/74f8834d-63f3-4fdb-815d-e0c2d56f8136" />
