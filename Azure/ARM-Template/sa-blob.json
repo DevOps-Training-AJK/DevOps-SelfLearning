@@ -5,13 +5,15 @@
     {
       "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2019-06-01",
-      "name": "ajk-practice-sa",
+      "name": "ajkpractice1sa1",
       "location": "southindia",
       "sku": {
         "name": "Standard_LRS"
       },
-      "kind": "StorageV2",
-      "properties": {}
+      "kind": "BlobStorage",
+      "properties": {
+	"accessTier": "Hot"
+}
     }
     ]
 }
