@@ -10,7 +10,8 @@ https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Azure/ARM-T
 https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Azure/ARM-Template/nsg.md
 
 
-### Azure storage creation
+### Azure storage creation for blob
+https://github.com/DevOps-Training-AJK/DevOps-SelfLearning/blob/main/Azure/ARM-Template/sa-blob.md
 
 
 ### Virtual Machine Creation creation
