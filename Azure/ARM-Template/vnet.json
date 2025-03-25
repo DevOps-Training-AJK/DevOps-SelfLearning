@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "resources": [
+    {
+        "type": "microsoft.network/virtualNetworks",
+        "apiVersion": "2019-11-01",
+        "name": "ajk-practice",
+        "location": "southindia",
+        "properties": {
+            "addressSpace": {
+                "addressPrefixes": [
+                    "10.0.0.0/16" ]
+            },
+            "subnets": [
+                {
+                    "name": "ajk-vnet-subnet",
+                    "properties": {
+                        "addressPrefix": "10.0.1.0/24"
+                    }
+                }
+            ]
+
+        }
+    }
+  ]
+}
